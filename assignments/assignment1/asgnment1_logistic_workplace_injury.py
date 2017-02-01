@@ -6,38 +6,39 @@ import matplotlib.pyplot as plt
 import sys
 
 
-#Add the path to current working directory in preferences -> console
+#STAGE1: Data Ingestion: Add the path to current working directory in preferences -> console
 
 filePath = os.path.join(r"data\workplace-injuries-by-industry-and-incident-types.csv")
-df1  = pd.read_csv(filePath)
+df  = pd.read_csv(filePath)
 
-#Add another column which  checks the 
-df1['target_variable_gt_2_affected'] = (df['no._of_injuries'] > 2).astype(int)
+#Add another column which  checks that if the injury involved more than 2 people
+df['target_variable_gt_2_affected'] = (df['no._of_injuries'] > 2).astype(int)
 
-#Delete the column for Year from the dataframe
+#Stage2: Data Cleanup Delete the column for Year from the dataframe
+#Check if the dataframe has any Null values
 try:
-    df1.drop('year', axis=1, inplace=True)
+    df.drop('year', axis=1, inplace=True)
 except:
     print "There is no such key as Year"
 
-#summarize the data/
-df1.describe()
-for col in ['degree_of_injury','industry', 'sub_industry', 'incident_type', 'incident_agent', 'incident_agent_sub_type']:
-                df1[col] = df[col].astype('category')
-df1.dtypes
-dummy_industry = pd.get_dummies(df1['industry'], prefix='industry')
-print dummy_industry.head()
+#Factorize the variable to prepare for Logit
+df.describe()
+df.dtypes
+dummy_degree_of_injury = pd.get_dummies(df['degree_of_injury'], prefix='degree_of_injury')
+print dummy_degree_of_injury.head()
 
-cols_to_keep = ['degree_of_injury', 'target_variable_gt_2_affected']
-data = df1[cols_to_keep]
+cols_to_keep = ['target_variable_gt_2_affected']
+data = df[cols_to_keep].join(dummy_degree_of_injury)
 print data.head()
-data.describe()
-
 data['intercept'] = 1.0
-train_cols = data.columns[1:]
 
-logit = sm.Logit(data['target_variable_gt_2_affected'], data['degree_of_injury'])
+train_cols = data.columns[1:]
+print train_cols
+logit = sm.Logit(data['target_variable_gt_2_affected'], data[train_cols])
+  # fit the model
 result = logit.fit()
 print result.summary()
 print result.conf_int()
 print np.exp(result.params)
+
+
