@@ -1,4 +1,4 @@
-# Predict if the workplace injury involved more than 2 persons
+# REPO for School Assignment and project
 
 # How to setup Python for Data Science
 
