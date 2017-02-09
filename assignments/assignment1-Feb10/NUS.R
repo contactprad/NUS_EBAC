@@ -248,6 +248,7 @@ library(corr)
 DATA1 <- DATA
 DATA1$rankP <- predict(mylogit, newdata = DATA1, type = "response")
 write.csv(DATA1, './datasets/NUS/OUTPUT/RESULT.csv', row.names = FALSE)
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DATA <- fread('./data/workplace-injuries-by-industry-and-incident-types.csv')
 unique(DATA$degree_of_injury)
@@ -314,6 +315,9 @@ set.seed(22)
 split <- sample.split(DATA$injury_count, SplitRatio = 0.7)
 
 # Get training and test data
+trainset <- subset(DATA, split == 1)
+testset <- subset(DATA, split == 0)
+
 
 mylogit <- glm(injury_count ~ ., data = trainset, family = "binomial")
 summary(mylogit)
@@ -321,12 +325,16 @@ summary(mylogit)
 #Create the Confusion Matrix
 prob <- predict(mylogit, type = 'response')
 predict <- ifelse(prob>threshold, 1, 0)
-table(DATA$injury_count, predict)
-#Split Data
+table(trainset$injury_count, predict)
 
-#DATA1$rankP <- predict(mylogit, newdata = DATA1, type = "response")
-#write.csv(DATA1, './data/OUTPUT/RESULT.csv', row.names = FALSE)
+#Validate the model with remaining 70% Test Set
+myLogit_test <- glm(injury_count ~ ., data = testset, family = "binomial")
+summary(mylogit)
 
+#Create the Confusion Matrix
+prob <- predict(myLogit_test, type = 'response')
+predict <- ifelse(prob>threshold, 1, 0)
+table(testset$injury_count, predict)
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
