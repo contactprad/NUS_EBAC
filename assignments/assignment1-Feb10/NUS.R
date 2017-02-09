@@ -328,11 +328,10 @@ predict <- ifelse(prob>threshold, 1, 0)
 table(trainset$injury_count, predict)
 
 #Validate the model with remaining 70% Test Set
-myLogit_test <- glm(injury_count ~ ., data = testset, family = "binomial")
-summary(mylogit)
+#myLogit_test <- glm(injury_count ~ ., data = testset, family = "binomial")
 
 #Create the Confusion Matrix
-prob <- predict(myLogit_test, type = 'response')
+prob <- predict(mylogit, newdata = testset, type = 'response')
 predict <- ifelse(prob>threshold, 1, 0)
 table(testset$injury_count, predict)
 
