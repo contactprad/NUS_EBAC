@@ -1,3 +1,6 @@
+'''This is just a sample Python script to analyze the data and run regression using Python
+This is just a learning script and original R script is for assignment submission'''
+
 import pandas as pd
 import statsmodels.api as sm
 import pylab as pl
