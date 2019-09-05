@@ -1,0 +1,49 @@
+# Metadata for Islandwide Cases Recorded for Selected Major Offences
+---
+Identifier: '1edf21d3-1c55-413e-b3a5-dd06e06607ec'
+Name: 'islandwide-cases-recorded-for-selected-major-offences'
+Title: 'Islandwide Cases Recorded for Selected Major Offences'
+Description: 'Note: Figures are based on Annual Statistical Reports on Crime in Singapore.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'crime'
+  - 'offence'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Police Force'
+  Admin 1:
+    Name: 'Ng Kok Hoe'
+    Department: 'Police Intelligence Department \ Intelligence Processing Division'
+    Email: 'NG_Kok_Hoe@spf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Police Force'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2015-12-31'
+Last Updated: '2017-02-06T07:05:40.715662'
+Resources:
+  -
+    Identifier: '84a2d5ed-18ca-4e91-b751-e965148e79af'
+    Title: 'Islandwide Cases Recorded for  Selected Major Selected Offences'
+    Url: 'https://storage.data.gov.sg/islandwide-cases-recorded-for-selected-major-offences/resources/islandwide-cases-recorded-for-selected-major-selected-offences-2016-09-20T06-37-19Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Last Updated: '2016-09-20T06:37:19.487393'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'offence'
+        Title: 'Offence'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_cases'
+        Title: 'No. Of Cases'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Cases'

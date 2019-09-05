@@ -1,0 +1,101 @@
+# Metadata for Unlicensed Moneylending (UML) and Harassment
+---
+Identifier: 'd1cdaca3-bd01-44e5-ad78-377d17d3d6c3'
+Name: 'unlicensed-moneylending-uml-and-harassment'
+Title: 'Unlicensed Moneylending (UML) and Harassment'
+Description: 'Note: Figures are based on Annual Statistical Reports on Crime in Singapore.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'arrested'
+  - 'crime'
+  - 'moneylending'
+  - 'npc'
+  - 'offence'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Police Force'
+  Admin 1:
+    Name: 'Ng Kok Hoe'
+    Department: 'Police Intelligence Department \ Intelligence Processing Division'
+    Email: 'NG_Kok_Hoe@spf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Police Force'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2015-12-31'
+Last Updated: '2017-02-06T08:02:02.901309'
+Resources:
+  -
+    Identifier: '5e28907c-73fa-4df9-8fe4-b6be1cdb0be8'
+    Title: 'Unlicensed Moneylending (UML) and Harassment'
+    Url: 'https://storage.data.gov.sg/unlicensed-moneylending-uml-and-harassment/resources/unlicensed-moneylending-uml-and-harassment-2016-09-20T07-03-38Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Last Updated: '2016-09-20T07:03:38.355239'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type_of_case'
+        Title: 'Type Of Case'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'cases_recorded'
+        Title: 'Cases Recorded'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Cases'
+      -
+        Name: 'arrests'
+        Title: 'Arrests'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Persons Arrested'
+  -
+    Identifier: 'f313e476-cbce-47b6-8802-f4c050d217d8'
+    Title: 'Unlicensed Moneylending (UML) Cases & Harassment by NPCs'
+    Url: 'https://storage.data.gov.sg/unlicensed-moneylending-uml-and-harassment/resources/unlicensed-moneylending-uml-cases-harassment-by-npcs-2016-09-20T09-23-48Z.csv'
+    Format: 'CSV'
+    Coverage: '2010-01-01 to 2015-12-31'
+    Description: 'Figures may not tally with monthly statistics published due to unknown
+      place of offence (NPC not available)'
+    Last Updated: '2016-09-20T09:23:48.382815'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'division'
+        Title: 'Division'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'npc'
+        Title: 'NPC'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'type_of_case'
+        Title: 'Type Of Case'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_cases'
+        Title: 'No. Of Cases'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Cases'
+        Description:
+          - '(i) Compilation of UML/Harassment by NPC started wef 2010.'
+          - '(ii) Compilation of Woodlands West & Woodlands East NPC statistics started
+            wef  2012.'
+          - '(iii) Compilation of 5Ps for Punggol NPC started wef 2013.'
+          - '"na" : Data not available or not applicable'

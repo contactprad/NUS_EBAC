@@ -1,0 +1,481 @@
+year,offence,age_group,gender,no_of_persons_arrested
+2008,Murder,Adults (above 21 yrs),Female,na
+2008,Murder,Adults (above 21 yrs),Male,na
+2008,Murder,Offenders (<=21 yrs),Female,na
+2008,Murder,Offenders (<=21 yrs),Male,na
+2008,Murder,Youths (7 to 19 years old),Female,2
+2008,Murder,Youths (7 to 19 years old),Male,6
+2008,Rape,Adults (above 21 yrs),Female,na
+2008,Rape,Adults (above 21 yrs),Male,na
+2008,Rape,Offenders (<=21 yrs),Female,na
+2008,Rape,Offenders (<=21 yrs),Male,na
+2008,Rape,Youths (7 to 19 years old),Female,0
+2008,Rape,Youths (7 to 19 years old),Male,16
+2008,Outrage of Modesty,Adults (above 21 yrs),Female,na
+2008,Outrage of Modesty,Adults (above 21 yrs),Male,na
+2008,Outrage of Modesty,Offenders (<=21 yrs),Female,na
+2008,Outrage of Modesty,Offenders (<=21 yrs),Male,na
+2008,Outrage of Modesty,Youths (7 to 19 years old),Female,2
+2008,Outrage of Modesty,Youths (7 to 19 years old),Male,97
+2008,Robbery,Adults (above 21 yrs),Female,na
+2008,Robbery,Adults (above 21 yrs),Male,na
+2008,Robbery,Offenders (<=21 yrs),Female,na
+2008,Robbery,Offenders (<=21 yrs),Male,na
+2008,Robbery,Youths (7 to 19 years old),Female,14
+2008,Robbery,Youths (7 to 19 years old),Male,171
+2008,Housebreaking,Adults (above 21 yrs),Female,na
+2008,Housebreaking,Adults (above 21 yrs),Male,na
+2008,Housebreaking,Offenders (<=21 yrs),Female,na
+2008,Housebreaking,Offenders (<=21 yrs),Male,na
+2008,Housebreaking,Youths (7 to 19 years old),Female,5
+2008,Housebreaking,Youths (7 to 19 years old),Male,94
+2008,Theft of Motor Vehicle,Adults (above 21 yrs),Female,na
+2008,Theft of Motor Vehicle,Adults (above 21 yrs),Male,na
+2008,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,na
+2008,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,na
+2008,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,8
+2008,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,103
+2008,Snatch Theft,Adults (above 21 yrs),Female,na
+2008,Snatch Theft,Adults (above 21 yrs),Male,na
+2008,Snatch Theft,Offenders (<=21 yrs),Female,na
+2008,Snatch Theft,Offenders (<=21 yrs),Male,na
+2008,Snatch Theft,Youths (7 to 19 years old),Female,0
+2008,Snatch Theft,Youths (7 to 19 years old),Male,42
+2008,Rioting,Adults (above 21 yrs),Female,na
+2008,Rioting,Adults (above 21 yrs),Male,na
+2008,Rioting,Offenders (<=21 yrs),Female,na
+2008,Rioting,Offenders (<=21 yrs),Male,na
+2008,Rioting,Youths (7 to 19 years old),Female,60
+2008,Rioting,Youths (7 to 19 years old),Male,477
+2008,Serious Hurt,Adults (above 21 yrs),Female,na
+2008,Serious Hurt,Adults (above 21 yrs),Male,na
+2008,Serious Hurt,Offenders (<=21 yrs),Female,na
+2008,Serious Hurt,Offenders (<=21 yrs),Male,na
+2008,Serious Hurt,Youths (7 to 19 years old),Female,2
+2008,Serious Hurt,Youths (7 to 19 years old),Male,35
+2008,Cheating & Related,Adults (above 21 yrs),Female,na
+2008,Cheating & Related,Adults (above 21 yrs),Male,na
+2008,Cheating & Related,Offenders (<=21 yrs),Female,na
+2008,Cheating & Related,Offenders (<=21 yrs),Male,na
+2008,Cheating & Related,Youths (7 to 19 years old),Female,58
+2008,Cheating & Related,Youths (7 to 19 years old),Male,125
+2009,Murder,Adults (above 21 yrs),Female,3
+2009,Murder,Adults (above 21 yrs),Male,13
+2009,Murder,Offenders (<=21 yrs),Female,0
+2009,Murder,Offenders (<=21 yrs),Male,5
+2009,Murder,Youths (7 to 19 years old),Female,0
+2009,Murder,Youths (7 to 19 years old),Male,4
+2009,Rape,Adults (above 21 yrs),Female,0
+2009,Rape,Adults (above 21 yrs),Male,41
+2009,Rape,Offenders (<=21 yrs),Female,0
+2009,Rape,Offenders (<=21 yrs),Male,20
+2009,Rape,Youths (7 to 19 years old),Female,0
+2009,Rape,Youths (7 to 19 years old),Male,17
+2009,Outrage of Modesty,Adults (above 21 yrs),Female,1
+2009,Outrage of Modesty,Adults (above 21 yrs),Male,597
+2009,Outrage of Modesty,Offenders (<=21 yrs),Female,5
+2009,Outrage of Modesty,Offenders (<=21 yrs),Male,116
+2009,Outrage of Modesty,Youths (7 to 19 years old),Female,4
+2009,Outrage of Modesty,Youths (7 to 19 years old),Male,81
+2009,Robbery,Adults (above 21 yrs),Female,7
+2009,Robbery,Adults (above 21 yrs),Male,149
+2009,Robbery,Offenders (<=21 yrs),Female,13
+2009,Robbery,Offenders (<=21 yrs),Male,210
+2009,Robbery,Youths (7 to 19 years old),Female,13
+2009,Robbery,Youths (7 to 19 years old),Male,186
+2009,Housebreaking,Adults (above 21 yrs),Female,6
+2009,Housebreaking,Adults (above 21 yrs),Male,161
+2009,Housebreaking,Offenders (<=21 yrs),Female,7
+2009,Housebreaking,Offenders (<=21 yrs),Male,107
+2009,Housebreaking,Youths (7 to 19 years old),Female,7
+2009,Housebreaking,Youths (7 to 19 years old),Male,95
+2009,Theft of Motor Vehicle,Adults (above 21 yrs),Female,2
+2009,Theft of Motor Vehicle,Adults (above 21 yrs),Male,54
+2009,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,4
+2009,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,169
+2009,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,3
+2009,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,144
+2009,Snatch Theft,Adults (above 21 yrs),Female,3
+2009,Snatch Theft,Adults (above 21 yrs),Male,55
+2009,Snatch Theft,Offenders (<=21 yrs),Female,4
+2009,Snatch Theft,Offenders (<=21 yrs),Male,49
+2009,Snatch Theft,Youths (7 to 19 years old),Female,3
+2009,Snatch Theft,Youths (7 to 19 years old),Male,49
+2009,Rioting,Adults (above 21 yrs),Female,6
+2009,Rioting,Adults (above 21 yrs),Male,240
+2009,Rioting,Offenders (<=21 yrs),Female,40
+2009,Rioting,Offenders (<=21 yrs),Male,492
+2009,Rioting,Youths (7 to 19 years old),Female,40
+2009,Rioting,Youths (7 to 19 years old),Male,428
+2009,Serious Hurt,Adults (above 21 yrs),Female,31
+2009,Serious Hurt,Adults (above 21 yrs),Male,218
+2009,Serious Hurt,Offenders (<=21 yrs),Female,5
+2009,Serious Hurt,Offenders (<=21 yrs),Male,54
+2009,Serious Hurt,Youths (7 to 19 years old),Female,5
+2009,Serious Hurt,Youths (7 to 19 years old),Male,43
+2009,Cheating & Related,Adults (above 21 yrs),Female,337
+2009,Cheating & Related,Adults (above 21 yrs),Male,904
+2009,Cheating & Related,Offenders (<=21 yrs),Female,115
+2009,Cheating & Related,Offenders (<=21 yrs),Male,146
+2009,Cheating & Related,Youths (7 to 19 years old),Female,62
+2009,Cheating & Related,Youths (7 to 19 years old),Male,96
+2010,Murder,Adults (above 21 yrs),Female,1
+2010,Murder,Adults (above 21 yrs),Male,31
+2010,Murder,Offenders (<=21 yrs),Female,0
+2010,Murder,Offenders (<=21 yrs),Male,22
+2010,Murder,Youths (7 to 19 years old),Female,0
+2010,Murder,Youths (7 to 19 years old),Male,15
+2010,Rape,Adults (above 21 yrs),Female,0
+2010,Rape,Adults (above 21 yrs),Male,40
+2010,Rape,Offenders (<=21 yrs),Female,0
+2010,Rape,Offenders (<=21 yrs),Male,19
+2010,Rape,Youths (7 to 19 years old),Female,0
+2010,Rape,Youths (7 to 19 years old),Male,14
+2010,Outrage of Modesty,Adults (above 21 yrs),Female,6
+2010,Outrage of Modesty,Adults (above 21 yrs),Male,731
+2010,Outrage of Modesty,Offenders (<=21 yrs),Female,3
+2010,Outrage of Modesty,Offenders (<=21 yrs),Male,149
+2010,Outrage of Modesty,Youths (7 to 19 years old),Female,3
+2010,Outrage of Modesty,Youths (7 to 19 years old),Male,116
+2010,Robbery,Adults (above 21 yrs),Female,8
+2010,Robbery,Adults (above 21 yrs),Male,145
+2010,Robbery,Offenders (<=21 yrs),Female,7
+2010,Robbery,Offenders (<=21 yrs),Male,166
+2010,Robbery,Youths (7 to 19 years old),Female,6
+2010,Robbery,Youths (7 to 19 years old),Male,133
+2010,Housebreaking,Adults (above 21 yrs),Female,12
+2010,Housebreaking,Adults (above 21 yrs),Male,115
+2010,Housebreaking,Offenders (<=21 yrs),Female,10
+2010,Housebreaking,Offenders (<=21 yrs),Male,134
+2010,Housebreaking,Youths (7 to 19 years old),Female,7
+2010,Housebreaking,Youths (7 to 19 years old),Male,124
+2010,Theft of Motor Vehicle,Adults (above 21 yrs),Female,3
+2010,Theft of Motor Vehicle,Adults (above 21 yrs),Male,68
+2010,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,11
+2010,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,101
+2010,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,7
+2010,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,75
+2010,Snatch Theft,Adults (above 21 yrs),Female,2
+2010,Snatch Theft,Adults (above 21 yrs),Male,59
+2010,Snatch Theft,Offenders (<=21 yrs),Female,4
+2010,Snatch Theft,Offenders (<=21 yrs),Male,37
+2010,Snatch Theft,Youths (7 to 19 years old),Female,4
+2010,Snatch Theft,Youths (7 to 19 years old),Male,32
+2010,Rioting,Adults (above 21 yrs),Female,11
+2010,Rioting,Adults (above 21 yrs),Male,344
+2010,Rioting,Offenders (<=21 yrs),Female,56
+2010,Rioting,Offenders (<=21 yrs),Male,576
+2010,Rioting,Youths (7 to 19 years old),Female,47
+2010,Rioting,Youths (7 to 19 years old),Male,484
+2010,Serious Hurt,Adults (above 21 yrs),Female,40
+2010,Serious Hurt,Adults (above 21 yrs),Male,225
+2010,Serious Hurt,Offenders (<=21 yrs),Female,4
+2010,Serious Hurt,Offenders (<=21 yrs),Male,84
+2010,Serious Hurt,Youths (7 to 19 years old),Female,2
+2010,Serious Hurt,Youths (7 to 19 years old),Male,65
+2010,Cheating & Related,Adults (above 21 yrs),Female,369
+2010,Cheating & Related,Adults (above 21 yrs),Male,1039
+2010,Cheating & Related,Offenders (<=21 yrs),Female,101
+2010,Cheating & Related,Offenders (<=21 yrs),Male,141
+2010,Cheating & Related,Youths (7 to 19 years old),Female,58
+2010,Cheating & Related,Youths (7 to 19 years old),Male,74
+2011,Murder,Adults (above 21 yrs),Female,1
+2011,Murder,Adults (above 21 yrs),Male,17
+2011,Murder,Offenders (<=21 yrs),Female,1
+2011,Murder,Offenders (<=21 yrs),Male,11
+2011,Murder,Youths (7 to 19 years old),Female,1
+2011,Murder,Youths (7 to 19 years old),Male,8
+2011,Rape,Adults (above 21 yrs),Female,0
+2011,Rape,Adults (above 21 yrs),Male,30
+2011,Rape,Offenders (<=21 yrs),Female,0
+2011,Rape,Offenders (<=21 yrs),Male,14
+2011,Rape,Youths (7 to 19 years old),Female,0
+2011,Rape,Youths (7 to 19 years old),Male,13
+2011,Outrage of Modesty,Adults (above 21 yrs),Female,4
+2011,Outrage of Modesty,Adults (above 21 yrs),Male,681
+2011,Outrage of Modesty,Offenders (<=21 yrs),Female,3
+2011,Outrage of Modesty,Offenders (<=21 yrs),Male,115
+2011,Outrage of Modesty,Youths (7 to 19 years old),Female,2
+2011,Outrage of Modesty,Youths (7 to 19 years old),Male,79
+2011,Robbery,Adults (above 21 yrs),Female,10
+2011,Robbery,Adults (above 21 yrs),Male,167
+2011,Robbery,Offenders (<=21 yrs),Female,11
+2011,Robbery,Offenders (<=21 yrs),Male,116
+2011,Robbery,Youths (7 to 19 years old),Female,11
+2011,Robbery,Youths (7 to 19 years old),Male,102
+2011,Housebreaking,Adults (above 21 yrs),Female,12
+2011,Housebreaking,Adults (above 21 yrs),Male,161
+2011,Housebreaking,Offenders (<=21 yrs),Female,9
+2011,Housebreaking,Offenders (<=21 yrs),Male,90
+2011,Housebreaking,Youths (7 to 19 years old),Female,9
+2011,Housebreaking,Youths (7 to 19 years old),Male,82
+2011,Theft of Motor Vehicle,Adults (above 21 yrs),Female,1
+2011,Theft of Motor Vehicle,Adults (above 21 yrs),Male,55
+2011,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,12
+2011,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,128
+2011,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,10
+2011,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,106
+2011,Snatch Theft,Adults (above 21 yrs),Female,3
+2011,Snatch Theft,Adults (above 21 yrs),Male,44
+2011,Snatch Theft,Offenders (<=21 yrs),Female,0
+2011,Snatch Theft,Offenders (<=21 yrs),Male,42
+2011,Snatch Theft,Youths (7 to 19 years old),Female,0
+2011,Snatch Theft,Youths (7 to 19 years old),Male,36
+2011,Rioting,Adults (above 21 yrs),Female,6
+2011,Rioting,Adults (above 21 yrs),Male,234
+2011,Rioting,Offenders (<=21 yrs),Female,65
+2011,Rioting,Offenders (<=21 yrs),Male,397
+2011,Rioting,Youths (7 to 19 years old),Female,62
+2011,Rioting,Youths (7 to 19 years old),Male,336
+2011,Serious Hurt,Adults (above 21 yrs),Female,31
+2011,Serious Hurt,Adults (above 21 yrs),Male,209
+2011,Serious Hurt,Offenders (<=21 yrs),Female,11
+2011,Serious Hurt,Offenders (<=21 yrs),Male,51
+2011,Serious Hurt,Youths (7 to 19 years old),Female,7
+2011,Serious Hurt,Youths (7 to 19 years old),Male,36
+2011,Cheating & Related,Adults (above 21 yrs),Female,346
+2011,Cheating & Related,Adults (above 21 yrs),Male,935
+2011,Cheating & Related,Offenders (<=21 yrs),Female,91
+2011,Cheating & Related,Offenders (<=21 yrs),Male,151
+2011,Cheating & Related,Youths (7 to 19 years old),Female,56
+2011,Cheating & Related,Youths (7 to 19 years old),Male,97
+2012,Murder,Adults (above 21 yrs),Female,0
+2012,Murder,Adults (above 21 yrs),Male,15
+2012,Murder,Offenders (<=21 yrs),Female,0
+2012,Murder,Offenders (<=21 yrs),Male,1
+2012,Murder,Youths (7 to 19 years old),Female,0
+2012,Murder,Youths (7 to 19 years old),Male,0
+2012,Rape,Adults (above 21 yrs),Female,0
+2012,Rape,Adults (above 21 yrs),Male,42
+2012,Rape,Offenders (<=21 yrs),Female,0
+2012,Rape,Offenders (<=21 yrs),Male,37
+2012,Rape,Youths (7 to 19 years old),Female,0
+2012,Rape,Youths (7 to 19 years old),Male,33
+2012,Outrage of Modesty,Adults (above 21 yrs),Female,3
+2012,Outrage of Modesty,Adults (above 21 yrs),Male,702
+2012,Outrage of Modesty,Offenders (<=21 yrs),Female,3
+2012,Outrage of Modesty,Offenders (<=21 yrs),Male,108
+2012,Outrage of Modesty,Youths (7 to 19 years old),Female,3
+2012,Outrage of Modesty,Youths (7 to 19 years old),Male,65
+2012,Robbery,Adults (above 21 yrs),Female,9
+2012,Robbery,Adults (above 21 yrs),Male,142
+2012,Robbery,Offenders (<=21 yrs),Female,10
+2012,Robbery,Offenders (<=21 yrs),Male,115
+2012,Robbery,Youths (7 to 19 years old),Female,8
+2012,Robbery,Youths (7 to 19 years old),Male,98
+2012,Housebreaking,Adults (above 21 yrs),Female,9
+2012,Housebreaking,Adults (above 21 yrs),Male,140
+2012,Housebreaking,Offenders (<=21 yrs),Female,10
+2012,Housebreaking,Offenders (<=21 yrs),Male,78
+2012,Housebreaking,Youths (7 to 19 years old),Female,9
+2012,Housebreaking,Youths (7 to 19 years old),Male,61
+2012,Theft of Motor Vehicle,Adults (above 21 yrs),Female,3
+2012,Theft of Motor Vehicle,Adults (above 21 yrs),Male,59
+2012,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,4
+2012,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,74
+2012,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,3
+2012,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,62
+2012,Snatch Theft,Adults (above 21 yrs),Female,3
+2012,Snatch Theft,Adults (above 21 yrs),Male,54
+2012,Snatch Theft,Offenders (<=21 yrs),Female,1
+2012,Snatch Theft,Offenders (<=21 yrs),Male,24
+2012,Snatch Theft,Youths (7 to 19 years old),Female,1
+2012,Snatch Theft,Youths (7 to 19 years old),Male,14
+2012,Rioting,Adults (above 21 yrs),Female,21
+2012,Rioting,Adults (above 21 yrs),Male,277
+2012,Rioting,Offenders (<=21 yrs),Female,19
+2012,Rioting,Offenders (<=21 yrs),Male,277
+2012,Rioting,Youths (7 to 19 years old),Female,16
+2012,Rioting,Youths (7 to 19 years old),Male,223
+2012,Serious Hurt,Adults (above 21 yrs),Female,35
+2012,Serious Hurt,Adults (above 21 yrs),Male,275
+2012,Serious Hurt,Offenders (<=21 yrs),Female,4
+2012,Serious Hurt,Offenders (<=21 yrs),Male,50
+2012,Serious Hurt,Youths (7 to 19 years old),Female,2
+2012,Serious Hurt,Youths (7 to 19 years old),Male,36
+2012,Cheating & Related,Adults (above 21 yrs),Female,332
+2012,Cheating & Related,Adults (above 21 yrs),Male,926
+2012,Cheating & Related,Offenders (<=21 yrs),Female,86
+2012,Cheating & Related,Offenders (<=21 yrs),Male,119
+2012,Cheating & Related,Youths (7 to 19 years old),Female,48
+2012,Cheating & Related,Youths (7 to 19 years old),Male,76
+2013,Murder,Adults (above 21 yrs),Female,4
+2013,Murder,Adults (above 21 yrs),Male,23
+2013,Murder,Offenders (<=21 yrs),Female,0
+2013,Murder,Offenders (<=21 yrs),Male,2
+2013,Murder,Youths (7 to 19 years old),Female,0
+2013,Murder,Youths (7 to 19 years old),Male,1
+2013,Rape,Adults (above 21 yrs),Female,0
+2013,Rape,Adults (above 21 yrs),Male,43
+2013,Rape,Offenders (<=21 yrs),Female,0
+2013,Rape,Offenders (<=21 yrs),Male,32
+2013,Rape,Youths (7 to 19 years old),Female,0
+2013,Rape,Youths (7 to 19 years old),Male,27
+2013,Outrage of Modesty,Adults (above 21 yrs),Female,0
+2013,Outrage of Modesty,Adults (above 21 yrs),Male,663
+2013,Outrage of Modesty,Offenders (<=21 yrs),Female,3
+2013,Outrage of Modesty,Offenders (<=21 yrs),Male,115
+2013,Outrage of Modesty,Youths (7 to 19 years old),Female,3
+2013,Outrage of Modesty,Youths (7 to 19 years old),Male,77
+2013,Robbery,Adults (above 21 yrs),Female,7
+2013,Robbery,Adults (above 21 yrs),Male,146
+2013,Robbery,Offenders (<=21 yrs),Female,3
+2013,Robbery,Offenders (<=21 yrs),Male,91
+2013,Robbery,Youths (7 to 19 years old),Female,2
+2013,Robbery,Youths (7 to 19 years old),Male,73
+2013,Housebreaking,Adults (above 21 yrs),Female,8
+2013,Housebreaking,Adults (above 21 yrs),Male,144
+2013,Housebreaking,Offenders (<=21 yrs),Female,8
+2013,Housebreaking,Offenders (<=21 yrs),Male,85
+2013,Housebreaking,Youths (7 to 19 years old),Female,6
+2013,Housebreaking,Youths (7 to 19 years old),Male,75
+2013,Theft of Motor Vehicle,Adults (above 21 yrs),Female,0
+2013,Theft of Motor Vehicle,Adults (above 21 yrs),Male,41
+2013,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,4
+2013,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,62
+2013,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,3
+2013,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,54
+2013,Snatch Theft,Adults (above 21 yrs),Female,1
+2013,Snatch Theft,Adults (above 21 yrs),Male,52
+2013,Snatch Theft,Offenders (<=21 yrs),Female,3
+2013,Snatch Theft,Offenders (<=21 yrs),Male,29
+2013,Snatch Theft,Youths (7 to 19 years old),Female,3
+2013,Snatch Theft,Youths (7 to 19 years old),Male,27
+2013,Rioting,Adults (above 21 yrs),Female,5
+2013,Rioting,Adults (above 21 yrs),Male,295
+2013,Rioting,Offenders (<=21 yrs),Female,37
+2013,Rioting,Offenders (<=21 yrs),Male,312
+2013,Rioting,Youths (7 to 19 years old),Female,33
+2013,Rioting,Youths (7 to 19 years old),Male,250
+2013,Serious Hurt,Adults (above 21 yrs),Female,34
+2013,Serious Hurt,Adults (above 21 yrs),Male,316
+2013,Serious Hurt,Offenders (<=21 yrs),Female,2
+2013,Serious Hurt,Offenders (<=21 yrs),Male,54
+2013,Serious Hurt,Youths (7 to 19 years old),Female,2
+2013,Serious Hurt,Youths (7 to 19 years old),Male,30
+2013,Cheating & Related,Adults (above 21 yrs),Female,338
+2013,Cheating & Related,Adults (above 21 yrs),Male,922
+2013,Cheating & Related,Offenders (<=21 yrs),Female,70
+2013,Cheating & Related,Offenders (<=21 yrs),Male,105
+2013,Cheating & Related,Youths (7 to 19 years old),Female,45
+2013,Cheating & Related,Youths (7 to 19 years old),Male,74
+2014,Murder,Adults (above 21 yrs),Female,5
+2014,Murder,Adults (above 21 yrs),Male,18
+2014,Murder,Offenders (<=21 yrs),Female,0
+2014,Murder,Offenders (<=21 yrs),Male,1
+2014,Murder,Youths (7 to 19 years old),Female,0
+2014,Murder,Youths (7 to 19 years old),Male,0
+2014,Rape,Adults (above 21 yrs),Female,0
+2014,Rape,Adults (above 21 yrs),Male,59
+2014,Rape,Offenders (<=21 yrs),Female,0
+2014,Rape,Offenders (<=21 yrs),Male,45
+2014,Rape,Youths (7 to 19 years old),Female,0
+2014,Rape,Youths (7 to 19 years old),Male,32
+2014,Outrage of Modesty,Adults (above 21 yrs),Female,5
+2014,Outrage of Modesty,Adults (above 21 yrs),Male,699
+2014,Outrage of Modesty,Offenders (<=21 yrs),Female,1
+2014,Outrage of Modesty,Offenders (<=21 yrs),Male,138
+2014,Outrage of Modesty,Youths (7 to 19 years old),Female,1
+2014,Outrage of Modesty,Youths (7 to 19 years old),Male,106
+2014,Robbery,Adults (above 21 yrs),Female,5
+2014,Robbery,Adults (above 21 yrs),Male,127
+2014,Robbery,Offenders (<=21 yrs),Female,4
+2014,Robbery,Offenders (<=21 yrs),Male,74
+2014,Robbery,Youths (7 to 19 years old),Female,2
+2014,Robbery,Youths (7 to 19 years old),Male,60
+2014,Housebreaking,Adults (above 21 yrs),Female,5
+2014,Housebreaking,Adults (above 21 yrs),Male,117
+2014,Housebreaking,Offenders (<=21 yrs),Female,5
+2014,Housebreaking,Offenders (<=21 yrs),Male,55
+2014,Housebreaking,Youths (7 to 19 years old),Female,4
+2014,Housebreaking,Youths (7 to 19 years old),Male,46
+2014,Theft of Motor Vehicle,Adults (above 21 yrs),Female,5
+2014,Theft of Motor Vehicle,Adults (above 21 yrs),Male,48
+2014,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,2
+2014,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,66
+2014,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,2
+2014,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,53
+2014,Snatch Theft,Adults (above 21 yrs),Female,1
+2014,Snatch Theft,Adults (above 21 yrs),Male,38
+2014,Snatch Theft,Offenders (<=21 yrs),Female,3
+2014,Snatch Theft,Offenders (<=21 yrs),Male,26
+2014,Snatch Theft,Youths (7 to 19 years old),Female,3
+2014,Snatch Theft,Youths (7 to 19 years old),Male,21
+2014,Rioting,Adults (above 21 yrs),Female,13
+2014,Rioting,Adults (above 21 yrs),Male,308
+2014,Rioting,Offenders (<=21 yrs),Female,39
+2014,Rioting,Offenders (<=21 yrs),Male,337
+2014,Rioting,Youths (7 to 19 years old),Female,36
+2014,Rioting,Youths (7 to 19 years old),Male,286
+2014,Serious Hurt,Adults (above 21 yrs),Female,32
+2014,Serious Hurt,Adults (above 21 yrs),Male,390
+2014,Serious Hurt,Offenders (<=21 yrs),Female,1
+2014,Serious Hurt,Offenders (<=21 yrs),Male,56
+2014,Serious Hurt,Youths (7 to 19 years old),Female,1
+2014,Serious Hurt,Youths (7 to 19 years old),Male,34
+2014,Cheating & Related,Adults (above 21 yrs),Female,355
+2014,Cheating & Related,Adults (above 21 yrs),Male,1006
+2014,Cheating & Related,Offenders (<=21 yrs),Female,77
+2014,Cheating & Related,Offenders (<=21 yrs),Male,105
+2014,Cheating & Related,Youths (7 to 19 years old),Female,38
+2014,Cheating & Related,Youths (7 to 19 years old),Male,66
+2015,Murder,Adults (above 21 yrs),Female,4
+2015,Murder,Adults (above 21 yrs),Male,12
+2015,Murder,Offenders (<=21 yrs),Female,0
+2015,Murder,Offenders (<=21 yrs),Male,2
+2015,Murder,Youths (7 to 19 years old),Female,0
+2015,Murder,Youths (7 to 19 years old),Male,0
+2015,Rape,Adults (above 21 yrs),Female,0
+2015,Rape,Adults (above 21 yrs),Male,47
+2015,Rape,Offenders (<=21 yrs),Female,0
+2015,Rape,Offenders (<=21 yrs),Male,28
+2015,Rape,Youths (7 to 19 years old),Female,0
+2015,Rape,Youths (7 to 19 years old),Male,23
+2015,Outrage of Modesty,Adults (above 21 yrs),Female,5
+2015,Outrage of Modesty,Adults (above 21 yrs),Male,722
+2015,Outrage of Modesty,Offenders (<=21 yrs),Female,0
+2015,Outrage of Modesty,Offenders (<=21 yrs),Male,134
+2015,Outrage of Modesty,Youths (7 to 19 years old),Female,0
+2015,Outrage of Modesty,Youths (7 to 19 years old),Male,114
+2015,Robbery,Adults (above 21 yrs),Female,4
+2015,Robbery,Adults (above 21 yrs),Male,84
+2015,Robbery,Offenders (<=21 yrs),Female,5
+2015,Robbery,Offenders (<=21 yrs),Male,33
+2015,Robbery,Youths (7 to 19 years old),Female,4
+2015,Robbery,Youths (7 to 19 years old),Male,24
+2015,Housebreaking,Adults (above 21 yrs),Female,3
+2015,Housebreaking,Adults (above 21 yrs),Male,110
+2015,Housebreaking,Offenders (<=21 yrs),Female,3
+2015,Housebreaking,Offenders (<=21 yrs),Male,78
+2015,Housebreaking,Youths (7 to 19 years old),Female,3
+2015,Housebreaking,Youths (7 to 19 years old),Male,63
+2015,Theft of Motor Vehicle,Adults (above 21 yrs),Female,5
+2015,Theft of Motor Vehicle,Adults (above 21 yrs),Male,59
+2015,Theft of Motor Vehicle,Offenders (<=21 yrs),Female,3
+2015,Theft of Motor Vehicle,Offenders (<=21 yrs),Male,74
+2015,Theft of Motor Vehicle,Youths (7 to 19 years old),Female,0
+2015,Theft of Motor Vehicle,Youths (7 to 19 years old),Male,53
+2015,Snatch Theft,Adults (above 21 yrs),Female,1
+2015,Snatch Theft,Adults (above 21 yrs),Male,29
+2015,Snatch Theft,Offenders (<=21 yrs),Female,1
+2015,Snatch Theft,Offenders (<=21 yrs),Male,10
+2015,Snatch Theft,Youths (7 to 19 years old),Female,0
+2015,Snatch Theft,Youths (7 to 19 years old),Male,8
+2015,Rioting,Adults (above 21 yrs),Female,7
+2015,Rioting,Adults (above 21 yrs),Male,303
+2015,Rioting,Offenders (<=21 yrs),Female,31
+2015,Rioting,Offenders (<=21 yrs),Male,189
+2015,Rioting,Youths (7 to 19 years old),Female,28
+2015,Rioting,Youths (7 to 19 years old),Male,144
+2015,Serious Hurt,Adults (above 21 yrs),Female,43
+2015,Serious Hurt,Adults (above 21 yrs),Male,363
+2015,Serious Hurt,Offenders (<=21 yrs),Female,4
+2015,Serious Hurt,Offenders (<=21 yrs),Male,50
+2015,Serious Hurt,Youths (7 to 19 years old),Female,4
+2015,Serious Hurt,Youths (7 to 19 years old),Male,31
+2015,Cheating & Related,Adults (above 21 yrs),Female,488
+2015,Cheating & Related,Adults (above 21 yrs),Male,1149
+2015,Cheating & Related,Offenders (<=21 yrs),Female,98
+2015,Cheating & Related,Offenders (<=21 yrs),Male,148
+2015,Cheating & Related,Youths (7 to 19 years old),Female,62
+2015,Cheating & Related,Youths (7 to 19 years old),Male,89

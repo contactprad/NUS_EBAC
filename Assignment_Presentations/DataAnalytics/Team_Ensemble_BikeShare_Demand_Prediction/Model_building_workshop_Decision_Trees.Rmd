@@ -1,0 +1,351 @@
+
+##Overview##
+This notebook will look at a Bike Sharing data where we want to predict the demand for the next day.
+
+1. This data is a 2 years data from years 2011 to 2012 from Capital bike sharing system
+2. Goal is to ensure that the bicycle share scheme stocks enough bicycles to meet daily demand while minimizing the costs
+3. The dataset contains hourly and daily records of bike demand. we will consider daily data
+4. Demand is in the field: casual, registered, and cnt
+5. Customer pay 3 dollars to rent a bicycle from Capital bicycle share. Where as Capital system rent it from supplier for 2 dollars a day.
+6. Current model is to simply use the previous day data as the demand which may not be a good predictive model
+7. Build a prediction model which predicts the demand for tomorrow
+
+For this problem I intend to use the Decision Tree model to predict the demand and see how it performs
+
+
+```{R}
+# This R environment comes with all of CRAN preinstalled, as well as many other helpful packages
+# The environment is defined by the kaggle/rstats docker image: https://github.com/kaggle/docker-rstats
+# For example, here's several helpful packages to load in 
+#install.packages("ggplot2")
+#install.packages("readr")
+#install.packages("zoo")
+#install.packages("deplyr")
+#install.packages("rpart")
+#install.packages("smooth")
+#install.packages("forecast")
+#install.packages("quantmod")
+#install.packages("timeSeries")
+library(smooth)
+library(readr) 
+library(zoo)
+library(rpart)
+library(dplyr)
+library(ggplot2)
+library(timeSeries)
+
+# Input data files are available in the "../input/" directory.
+# For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
+
+list.files(".")
+
+# Any results you write to the current directory are saved as output.
+```
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <i{R}-input-1-be3371940e72> in <module>()
+          3 # For example, here's several helpful packages to load in
+          4 
+    ----> 5 library(ggplot2) # Data visualization
+          6 library(dplyr)
+          7 library(readr) # CSV file I/O, e.g. the read_csv function
+    
+
+    NameError: name 'library' is not defined
+
+
+## Let's load the data
+
+
+```{R}
+daily_data <-read.csv('bike_sharing_daily.csv')
+```
+
+#Explore the data
+
+
+```{R}
+head(daily_data, 5)
+str(daily_data)
+dates = daily_data$dteday
+dates<-as.Date(dates, format="%m/%d/%Y")
+#daily_data$dteday = NULL
+```
+
+## This is a time-series data. Let's convert it in to one.
+
+
+```{R}
+ts = NULL
+ts <- zoo(daily_data, dates)
+storage.mode(ts) <- "numeric"
+ts <- ts[,c(3,6:16)]
+#str(ts)
+head(as.data.frame(ts),5)
+```
+
+
+##Creating a lag variable
+Let's now create the lag variables. As mentioned in the assignment - training record for day N can be derived by taking the input variables from two days past (day N-2) and using the target variable from day N.
+vendor.cnt is the default prediction by vendor being used today
+target.cnt is the variable created as predictor variable for model
+
+
+```{R}
+target.cnt = stats::lag(ts$cnt, k=2)
+vendor.predict = stats::lag(ts$cnt, k=-2)
+ts <- merge(ts, target.cnt)
+ts <- merge(ts, vendor.predict)
+head(as.data.frame(ts))
+```
+
+## Let's Split the data set
+```{R}
+sta = as.Date("1-Jan-2011", "%d-%b-%Y")
+mid1 = as.Date("31-Dec-2011", "%d-%b-%Y")
+mid2 = as.Date("1-Jan-2012", "%d-%b-%Y")
+last = as.Date("30-Dec-2012", "%d-%b-%Y")
+traindata = window(ts, start=sta, end = mid1)
+testdata = window(ts, start = mid2, end = last)
+head(traindata, 5)
+head(testdata, 5)
+```
+
+## Predict the profit-loss using Vendor model
+```{R}
+traindata_frame <- as.data.frame(traindata)
+traindata_frame_na <- na.omit(traindata_frame)
+testdata_frame <- as.data.frame(testdata)
+testdata_frame_na <- na.omit(testdata_frame)
+head(traindata_frame,5)
+head(testdata_frame,5)
+totalRevenue = sum(pmin(as.numeric(testdata_frame_na$vendor.predict), as.numeric(testdata_frame_na$cnt)))*3
+totalpurchase = sum(as.numeric(testdata_frame_na$vendor.predict))*2
+totalpurchase
+ROI = totalRevenue - totalpurchase
+ROI
+```
+##Let's plot the time series
+##Please note that values are imputed in the csv for casual and humidity
+
+```{R}
+
+timeSeries::plot(traindata[,6:13],mar=c(gap=0.3, 5.1, gap=0.3, 2.1), plot.type="m")
+
+```
+
+## Let's do the data exploration
+
+1. Is there any NAN values? Should we drop them?
+- There is no NA values except the lag variables. There 
+2. Are there any data scaling required?
+- Looking  at the summary above and the decision trees nature (where there is no assumption made about data), we are could try with the values as it is. Though as suggested we need to create lag variables because today's demand (cnt) is because of N-2 attributes
+3. Is Season field has any relation to the demand of the bikes
+In general, it shows Season 1, Spring there is comparatively less users than other seasons. Which is kind of strange.
+Is it because in general demand increased in the second year which skewed this?
+4. Is there any relation between holiday and the bike count?
+- People tend to use more bikes when it's not holiday
+5. What is the pattern between registered user and day of week
+- There are spikes observed if it's a weekend
+6. What is the pattern between casual user and Registered User count over time
+
+
+```{R}
+sum(is.na(ts))
+colnames(ts)[colSums(is.na(ts)) > 0]
+```
+
+
+```{R}
+library(ggplot2)
+traindata_frame %>%
+    ggplot(aes(x = season, y = cnt )) + 
+    geom_point()
+```
+
+
+```{R}
+traindata_frame %>%
+    ggplot(aes(x = hum )) + 
+    geom_histogram()
+```
+
+**As We can see below, there is an uptrend in registered user in second year. More registered user tend to increase the regular count of the bike usage**
+Also some time shows as the count = 0 this indicates that failure in system. This looks like noise in data. Is it data missing or was it a system failure that day? Should we remove these records or Impute data? To remove such randomness, we decided to impute the data (performed in csv).
+
+
+```{R}
+plot(ts$registered, plot.type = "single"  )
+```
+
+##Let's draw boxplot to visualize the outliers in these columns.
+
+As we can see below, there is nothing critical observed. There are some spikes in Casual users shown which could be effect of other variables. Since they are random users, we just can't ignore these values as outliers.
+
+
+```{R}
+new_data <- select(daily_data, -daily_data$season, -daily_data$holiday, -daily_data$weekday)
+new_data <- select(new_data, -new_data$workingday)
+new_data$casual = new_data$casual/10000
+new_data$registered = new_data$registered/10000
+new_data$cnt <- new_data$cnt/10000
+head(new_data)
+ggplot(stack(new_data), aes(x = ind, y = values)) +
+  geom_boxplot()
+```
+
+## Let's plot the correlation chart between different variables
+```{R}
+with(ts, plot(temp, atemp))
+abline(fit <- lm( ts$atemp~ temp, data=ts), col='red')
+legend("topleft", bty="n", legend=paste("r=", 
+        format(summary(fit)$adj.r.squared, digits=4)))
+```
+
+## Time to create the model using Decision Tree with the newly created lag variables
+1. Split the data in to train and test
+2. Build the model
+3. Fit the data
+4. Validate
+
+
+```{R}
+#Data is already split
+head(traindata_frame_na, 5)
+head(testdata_frame_na, 5)
+```
+
+## Build the model
+
+## How to Interpret Model in CART
+We have to define the optimal cost parameter (CP) for which rel error, xerror, xstd is optimized. As we can see above at split 6, with CP of 0.011330 the rel error, xerror and xstd are best optimized as at 7, xerror and xstd tend to increase though there is improvement in rel error. This seems to be a problem of overfit as model is trying to fit each and every point. Hence the CP of 0.011330 seems optimal
+
+CP parameter is used to control the size of the decision tree. If the cost of adding another variable to the decision tree from current node is above the value of CP, then tree building does not continue.
+
+As per the documentation: This setup is known as odds regression, and may be a more sensible way to evaluate
+a split when the emphasis of the model is on understanding/explanation rather than on
+prediction error per se.
+
+
+```{R}
+fit <- rpart(traindata_frame_na$target.cnt~traindata_frame_na$season + traindata_frame_na$holiday
+             + traindata_frame_na$weekday + traindata_frame_na$workingday + traindata_frame_na$weathersit 
+             + traindata_frame_na$atemp + traindata_frame_na$hum + traindata_frame_na$windspeed+traindata_frame_na$casual, 
+   method="anova", data=traindata_frame_na)
+printcp(fit)
+
+# Function that returns Root Mean Squared Error
+rmse <- function(error)
+{
+    sqrt(mean(error^2))
+}
+ 
+# Function that returns Mean Absolute Error
+mae <- function(error)
+{
+    mean(abs(error))
+}
+```
+
+## Below is the our Decision Tree model Prediction
+
+
+```{R}
+pred <- predict(fit, testdata_frame_na)
+plot(pred+testdata_frame_na$cnt)
+pred <- data.frame(pred)
+str(pred)
+```
+
+## Let us calculate how much is Profil or Loss if Vendor selects our Model
+
+```{R}
+totalpurchase = sum(pred)*2
+pred_num<-as.numeric(unlist(pred))
+totalRevenue = sum(pmin(testdata_frame_na$cnt, pred_num ))*3
+ProfitOrLoss = totalRevenue - totalpurchase
+totalpurchase
+ProfitOrLoss
+```
+Calculate the RMSE and Mean Absolute error
+```{R}
+error = pred_num -  testdata_frame_na$cnt
+write.table(error, file="error.csv")
+rmse(error)
+mae(error)
+R2 <- 1 - (sum((testdata_frame_na$cnt-pred_num)^2)/sum((testdata_frame_na$cnt-mean(testdata_frame_na$cnt))^2))
+R2
+plot(error)
+```
+
+```{R}
+head(ts,5)
+```
+## Test with the 1.5 years data as train data
+```{r}
+library(forecast)
+head(ts)
+movingaverage = forecast::ma(x = ts$casual, order = 5)
+movingaverageatemp = forecast::ma(x = ts$atemp, order = 5)
+movingaveragewind = forecast::ma(x = ts$windspeed, order = 5)
+```
+##lets merge the ma columns
+```{R}
+ts <- merge(ts, movingaverage )
+ts <- merge(ts, movingaverageatemp)
+ts <- merge(ts, movingaveragewind)
+ts = na.omit(ts)
+head(ts)
+
+```
+## Create a train set and test set
+```{r}
+sta = as.Date("1-Jan-2011", "%d-%b-%Y")
+mid1 = as.Date("30-Jun-2012", "%d-%b-%Y")
+mid2 = as.Date("1-Jul-2012", "%d-%b-%Y")
+last = as.Date("30-Dec-2012", "%d-%b-%Y")
+traindata = window(ts, start=sta, end = mid1)
+testdata = window(ts, start = mid2, end = last)
+traindata = as.data.frame(traindata)
+testdata = as.data.frame(testdata)
+head(traindata, 5)
+head(testdata, 5)
+str(testdata)
+```
+## Create the model passing moving average as one of the input variable
+```{r}
+fit_aver = NULL
+fit_aver <- rpart(traindata$target.cnt~traindata$movingaverageatemp+traindata$movingaveragewind,
+   method="anova", data=traindata)
+printcp(fit_aver)
+```
+
+
+## Let's calculate the prediction on test set and business significance
+```{R}
+pred <- predict(fit_aver, testdata)
+str(pred)
+pred <- pred[1:182]
+
+totalpurchase = sum(pred*2)
+totalRevenue = sum(pmin(pred, testdata$cnt)*3)
+ProfitOrLoss = totalRevenue - totalpurchase
+totalpurchase
+ProfitOrLoss
+```
+
+## Model Error calculations
+```{R}
+ 
+# Example data
+str(pred)
+error = pred-testdata$cnt
+rsq   <- summary(fit)$r.squared
+plot(error)
+rmse(error)
+mae(error)
+```

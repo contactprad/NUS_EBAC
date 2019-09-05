@@ -1,0 +1,51 @@
+# Metadata for Number of Contraband cases detected
+---
+Identifier: 'ec9d1840-74dc-4336-9434-dcbd1be04597'
+Name: 'number-of-contraband-cases-detected'
+Title: 'Number of Contraband cases detected'
+Description: 'This table presents the yearly breakdown on the number of contraband
+  cases detected at the checkpoints from 2011 onwards'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Contraband detected'
+  - 'Immigration Offences'
+  - 'Security-related items'
+  - 'Smuggling'
+Publisher:
+  Name: 'Ministry of Home Affairs - Immigration & Checkpoints Authority'
+  Admin 1:
+    Name: 'Neo Soo Beng'
+    Department: 'Immigration & Checkpoints Authority'
+    Email: 'NEO_Soo_Beng@ica.gov.sg'
+  Admin 2:
+    Name: 'Gng Cheang Wee'
+    Department: 'Immigration & Checkpoints Authority'
+    Email: 'GNG_Cheang_Wee@ica.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Immigration & Checkpoints Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2011-01-01 to 2016-12-31'
+Last Updated: '2017-03-08T06:31:28.849050'
+Resources:
+  -
+    Identifier: '01069d36-207b-4a41-980a-12b7735b66d4'
+    Title: 'Number of Contraband cases detected from 2011 - 2016'
+    Url: 'https://storage.data.gov.sg/number-of-contraband-cases-detected/resources/number-of-contraband-cases-detected-from-2011-2016-2017-03-08T06-31-28Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-01-01 to 2016-12-31'
+    Last Updated: '2017-03-08T06:31:28.698024'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'contraband_cases_count'
+        Title: 'Contraband Cases Count'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Contraband Cases detected'

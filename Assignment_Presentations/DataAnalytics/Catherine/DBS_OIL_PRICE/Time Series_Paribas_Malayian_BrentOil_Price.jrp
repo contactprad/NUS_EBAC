@@ -1,0 +1,204 @@
+﻿New Table( "Sheet1",
+	Add Rows( 60 ),
+	New Script(
+		"Source",
+		Open(
+			"D:\NUS\DataAnalytics\Assignments\Catherine\DBS_OIL_PRICE\OIL_Price_DBS.xlsx",
+			Worksheets( "Sheet1" ),
+			Use for all sheets( 1 ),
+			Concatenate Worksheets( 0 ),
+			Create Concatenation Column( 0 ),
+			Worksheet Settings(
+				1,
+				Has Column Headers( 1 ),
+				Number of Rows in Headers( 1 ),
+				Headers Start on Row( 1 ),
+				Data Starts on Row( 2 ),
+				Data Starts on Column( 1 ),
+				Data Ends on Row( 0 ),
+				Data Ends on Column( 0 ),
+				Replicated Spanned Rows( 1 ),
+				Replicated Spanned Headers( 0 ),
+				Suppress Hidden Rows( 1 ),
+				Suppress Hidden Columns( 1 ),
+				Suppress Empty Columns( 1 ),
+				Treat as Hierarchy( 0 ),
+				Multiple Series Stack( 0 ),
+				Import Cell Colors( 0 ),
+				Limit Column Detect( 0 ),
+				Column Separator String( "-" )
+			)
+		)
+	),
+	New Column( "Date",
+		Numeric,
+		"Continuous",
+		Format( "m/y", 12 ),
+		Input Format( "m/y" ),
+		Set Values(
+			[3390940800, 3393532800, 3396211200, 3398889600, 3401481600, 3404160000,
+			3406752000, 3409430400, 3412108800, 3414614400, 3417292800, 3419884800,
+			3422563200, 3425155200, 3427833600, 3430512000, 3433104000, 3435782400,
+			3438374400, 3441052800, 3443731200, 3446150400, 3448828800, 3451420800,
+			3454099200, 3456691200, 3459369600, 3462048000, 3464640000, 3467318400,
+			3469910400, 3472588800, 3475267200, 3477686400, 3480364800, 3482956800,
+			3485635200, 3488227200, 3490905600, 3493584000, 3496176000, 3498854400,
+			3501446400, 3504124800, 3506803200, 3509222400, 3511900800, 3514492800,
+			3517171200, 3519763200, 3522441600, 3525120000, 3527712000, 3530390400,
+			3532982400, 3535660800, 3538339200, 3540844800, 3543523200, 3546115200]
+		)
+	),
+	New Column( "Oil Price",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[113.83, 116.97, 110.22, 112.83, 109.55, 110.77, 107.87, 110.69, 119.33,
+			125.45, 119.75, 110.34, 95.16, 102.62, 113.36, 112.86, 111.71, 109.06,
+			109.49, 112.96, 116.05, 108.47, 102.25, 102.56, 102.92, 107.93, 111.28,
+			111.6, 109.08, 107.79, 110.76, 108.12, 108.9, 107.48, 107.76, 109.54,
+			111.8, 106.77, 101.61, 97.09, 87.43, 79.44, 62.34, 47.76, 58.1, 55.89,
+			59.52, 64.08, 61.48, 56.56, 46.52, 47.62, 48.43, 44.27, 38.01, 30.7,
+			32.18, 38.21, 41.58, 46.74]
+		)
+	),
+	New Column( "DBS Stock",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[14.76, 15.6, 13.25, 11.59, 12.32, 12.75, 11.57, 13.45, 14.19, 14.18,
+			13.97, 13.11, 14, 14.62, 14.42, 14.28, 13.81, 14.49, 14.84, 15, 15.22,
+			16.08, 16.76, 16.99, 15.38, 16.950001, 15.92, 16.450001, 16.700001,
+			17.07, 17.1, 16.4, 16.299999, 16.27, 16.940001, 16.93, 16.799999,
+			18.110001, 17.950001, 18.42, 18.6, 19.889999, 20.6, 19.799999, 19.5,
+			20.42, 21.09, 20.299999, 20.66, 20.26, 17.75, 16.27, 17.34, 16.48,
+			16.690001, 14.15, 13.61, 15.21, 15.28, 15.6]
+		)
+	),
+	New Column( "Keppel",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[10.6899, 8.98065, 7.48387, 9.16413, 8.89374, 8.98065, 10.4774, 10.6706,
+			10.6126, 10.6706, 9.6373, 9.927, 10.7961, 10.8057, 11.0085, 10.294,
+			10.3422, 10.6223, 11.1051, 11.2403, 10.8154, 10.6108, 10.4226, 10.3037,
+			10.2541, 10.1, 10.42, 10.85, 11.31, 11.19, 10.4, 10.47, 10.89, 10.53,
+			10.63, 10.79, 10.96, 10.9, 10.5, 9.44, 9, 8.85, 8.7, 8.75, 9, 8.72, 8.75,
+			8.22, 7.5, 6.96, 6.78, 7.08, 6.55, 6.51, 5.02, 5.18, 5.83, 5.4, 5.38,
+			5.5]
+		)
+	),
+	New Column( "Paribas",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[10.6899, 8.98065, 7.48387, 9.16413, 8.89374, 8.98065, 10.4774, 10.6706,
+			10.6126, 10.6706, 9.6373, 9.927, 10.7961, 10.8057, 11.0085, 10.294,
+			10.3422, 10.6223, 11.1051, 11.2403, 10.8154, 10.6108, 10.4226, 10.3037,
+			10.2541, 10.1, 10.42, 10.85, 11.31, 11.19, 10.4, 10.47, 10.89, 10.53,
+			10.63, 10.79, 10.96, 10.9, 10.5, 9.44, 9, 8.85, 8.7, 8.75, 9, 8.72, 8.75,
+			8.22, 7.5, 6.96, 6.78, 7.08, 6.55, 6.51, 5.02, 5.18, 5.83, 5.4, 5.38,
+			5.5]
+		)
+	)
+) << Run Formulas;
+Time Series(
+	X( :Date ),
+	Y( :Paribas ),
+	Input List( :Oil Price ),
+	Transfer Function(
+		Order( 1, 2, 1 ),
+		Seasonal( 0, 0, 0, 12 ),
+		:Oil Price( Order( 2, 0, 2 ), Seasonal( 0, 0, 0, 12 ), Lag( 14 ) ),
+		Number of Forecast Periods( 14 )
+	),
+	Transfer Function(
+		Order( 1, 1, 1 ),
+		Seasonal( 0, 0, 0, 12 ),
+		:Oil Price( Order( 2, 0, 2 ), Seasonal( 0, 0, 0, 12 ), Lag( 14 ) ),
+		Number of Forecast Periods( 14 )
+	),
+	Transfer Function(
+		Order( 2, 2, 2 ),
+		Seasonal( 0, 0, 0, 12 ),
+		:Oil Price( Order( 2, 0, 2 ), Seasonal( 0, 0, 0, 12 ), Lag( 14 ) ),
+		Number of Forecast Periods( 14 )
+	),
+	Input Series(
+		:Oil Price,
+		Difference( 1 ),
+		Difference( 2 ),
+		ARIMA( 1, 2, 1 ),
+		Prewhitening( Order( 1, 2, 1 ), Seasonal( 0, 0, 0, 12 ) ),
+		Prewhitening( Order( 2, 2, 2 ), Seasonal( 0, 0, 0, 12 ) )
+	),
+	SendToReport(
+		Dispatch(
+			{"Time Series Paribas", "Transfer Function Model (1)"},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Time Series Paribas", "Transfer Function Model (1)",
+			"Interactive Forecasting"},
+			"Time Series",
+			FrameBox,
+			{DispatchSeg( CustomStreamSeg( 3 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 4 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 5 ), {Line Color( "Blue" )} )}
+		),
+		Dispatch(
+			{"Time Series Paribas"},
+			"Transfer Function Model (2)",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Time Series Paribas", "Transfer Function Model (2)",
+			"Interactive Forecasting"},
+			"Time Series",
+			FrameBox,
+			{DispatchSeg( CustomStreamSeg( 3 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 4 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 5 ), {Line Color( "Blue" )} )}
+		),
+		Dispatch(
+			{"Time Series Paribas", "Transfer Function Model (3)",
+			"Interactive Forecasting"},
+			"Time Series",
+			FrameBox,
+			{DispatchSeg( CustomStreamSeg( 3 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 4 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 5 ), {Line Color( "Blue" )} )}
+		),
+		Dispatch(
+			{"Input Time Series Panel"},
+			"Input Series: Oil Price",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: Oil Price"},
+			"Model: ARIMA(1",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: Oil Price",
+			"Model: ARIMA(1, 2, 1)  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: Oil Price"},
+			"Prewhitening Plot (1",
+			OutlineBox,
+			{Close( 1 )}
+		)
+	)
+);

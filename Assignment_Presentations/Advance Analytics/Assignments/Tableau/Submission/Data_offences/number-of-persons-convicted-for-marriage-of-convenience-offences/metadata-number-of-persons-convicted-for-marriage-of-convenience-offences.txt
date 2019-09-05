@@ -1,0 +1,51 @@
+# Metadata for Number of Persons Convicted for Marriage of Convenience offences
+---
+Identifier: '7073d182-9408-4e3a-bcb2-5cbe88e66b91'
+Name: 'number-of-persons-convicted-for-marriage-of-convenience-offences'
+Title: 'Number of Persons Convicted for Marriage of Convenience offences'
+Description: 'This table presents the yearly breakdown on the number of persons convicted
+  for MOC offences from 2013 onwards'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Immigration Offences'
+  - 'MOC'
+  - 'Marriage of Convenience'
+Publisher:
+  Name: 'Ministry of Home Affairs - Immigration & Checkpoints Authority'
+  Admin 1:
+    Name: 'Neo Soo Beng'
+    Department: 'Immigration & Checkpoints Authority'
+    Email: 'NEO_Soo_Beng@ica.gov.sg'
+  Admin 2:
+    Name: 'Gng Cheang Wee'
+    Department: 'Immigration & Checkpoints Authority'
+    Email: 'GNG_Cheang_Wee@ica.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Immigration & Checkpoints Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2013-01-01 to 2016-12-31'
+Last Updated: '2017-03-08T06:29:01.709828'
+Resources:
+  -
+    Identifier: '97cd048c-88e4-45d6-8c45-bc323950d851'
+    Title: 'Number of Persons Convicted for Marriage of Convenience offences from
+      2013 onwards'
+    Url: 'https://storage.data.gov.sg/number-of-persons-convicted-for-marriage-of-convenience-offences/resources/number-of-persons-convicted-for-marriage-of-convenience-offences-from-2013-onwards-2017-03-08T06-29-01Z.csv'
+    Format: 'CSV'
+    Coverage: '2013-01-01 to 2016-12-31'
+    Last Updated: '2017-03-08T06:29:01.431509'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'persons_moc_count'
+        Title: 'Persons Moc Count'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of persons convicted for MOC'

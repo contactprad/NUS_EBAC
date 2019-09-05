@@ -1,0 +1,38 @@
+---
+title: "Cointegration"
+author: "Prashant Jain"
+date: "24 August 2017"
+output: html_document
+---
+
+```{r}
+#install.packages("urca")
+library(urca)
+data = read.csv("Book1.csv")
+ocs = data[,2]
+nzt = data[,4]
+tsdata = cbind(ocs,nzt)
+
+```
+
+```{r}
+LinReg1 = lm(nzt~ocs)
+y = ur.df(LinReg1$residuals, type= "none", selectlags = "AIC")
+summary(y)
+
+```
+
+```{r}
+cointest = ca.jo(tsdata, type = "eigen", ecdet = "const", spec = "transitory")
+cointest
+cointest@cval
+```
+```{r}
+vecm = cajorls(cointest)
+vecm$rlm$coefficients[1,1]
+vecm$rlm$coefficients[1,2]
+vecm$beta[1,1]
+vecm$beta[2,1]
+summary(vecm)
+```
+

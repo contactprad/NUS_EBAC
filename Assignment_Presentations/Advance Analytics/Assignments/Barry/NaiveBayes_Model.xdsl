@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This network was created in GeNIe Academic, which can be used for educational and research purposes only -->
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="OA_MAIS">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<probabilities>0.8462687672856578 0.07626679178190438 0.06238887791386803 0.01507556301856973</probabilities>
+		</cpt>
+		<cpt id="GV_CURBWGT">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.0003034547152194211 0.2895774976657329 0.5472805788982259 0.1394257703081232 0.02341269841269841 0.0001294498381877023 0.3172815533980582 0.5341100323624595 0.1276375404530744 0.02084142394822006 0.0009493670886075948 0.3300632911392404 0.5444620253164556 0.105379746835443 0.01914556962025316 0.0006535947712418302 0.3633986928104576 0.5594771241830065 0.05620915032679739 0.02026143790849674</probabilities>
+		</cpt>
+		<cpt id="GV_DVLAT">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.03141048085901027 0.3006681839402428 0.6422298085901027 0.02569152661064426 0.05970873786407767 0.2584142394822007 0.6111650485436894 0.07071197411003237 0.07931170886075949 0.1837420886075949 0.5753560126582279 0.1615901898734177 0.1740196078431372 0.1511437908496732 0.4844771241830065 0.190359477124183</probabilities>
+		</cpt>
+		<cpt id="GV_DVLONG">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.1623045051353875 0.7203693977591037 0.08597397292250233 0.03135212418300654 0.3509708737864078 0.5865695792880259 0.03446601941747573 0.02799352750809062 0.4914952531645569 0.4551028481012658 0.03738132911392405 0.01602056962025316 0.4681372549019608 0.4223856209150327 0.0727124183006536 0.03676470588235294</probabilities>
+		</cpt>
+		<cpt id="GV_ENERGY">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.8409926470588236 0.1218633286647993 0.02534138655462185 0.01180263772175537 0.6532362459546925 0.2144012944983819 0.07718446601941747 0.05517799352750809 0.4661787974683544 0.2660205696202532 0.1283623417721519 0.1394382911392405 0.4419934640522876 0.2034313725490196 0.1119281045751634 0.2426470588235294</probabilities>
+		</cpt>
+		<cpt id="GV_LANES">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.3904839713663243 0.3942771553065671 0.2152388733271086 0.4351672060409925 0.377562028047465 0.1872707659115426 0.4789029535864979 0.3459915611814346 0.1751054852320675 0.4978213507625273 0.3867102396514161 0.1154684095860567</probabilities>
+		</cpt>
+		<cpt id="GV_MODELYR">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.2688025210084034 0.2572478991596638 0.2073529411764706 0.1545401493930906 0.1120564892623716 0.3049838187702265 0.2790938511326861 0.1677669902912621 0.1470550161812298 0.1011003236245955 0.3276898734177215 0.2873417721518987 0.1995253164556962 0.1219936708860759 0.0634493670886076 0.3274509803921569 0.284967320261438 0.2098039215686275 0.1215686274509804 0.05620915032679739</probabilities>
+		</cpt>
+		<cpt id="GV_OTVEHWGT">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.009876867413632119 0.4133549253034547 0.4309786414565827 0.1457895658263305 0.007281553398058253 0.3736245954692557 0.4357605177993528 0.1833333333333333 0.007318037974683544 0.3008306962025317 0.484375 0.2074762658227848 0.0008169934640522876 0.2263071895424837 0.5334967320261438 0.2393790849673203</probabilities>
+		</cpt>
+		<cpt id="GV_SPLIMIT">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.1017886321195145 0.4924282212885154 0.3415762138188609 0.06420693277310925 0.08106796116504854 0.4480582524271844 0.391747572815534 0.07912621359223301 0.06665348101265822 0.3933939873417722 0.4464003164556962 0.09355221518987342 0.04983660130718955 0.3799019607843138 0.4648692810457516 0.1053921568627451</probabilities>
+		</cpt>
+		<cpt id="GV_WGTCDTR">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.611072206660442 0.2602902272019919 0.1286375661375662 0.6183387270765912 0.2623516720604099 0.1193096008629989 0.6561181434599156 0.2376054852320675 0.1062763713080169 0.7167755991285404 0.2167755991285403 0.06644880174291939</probabilities>
+		</cpt>
+		<cpt id="OA_AGE">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.2323295985060691 0.2223506069094304 0.2758053221288516 0.1305555555555556 0.1389589169000934 0.1943042071197411 0.2137216828478964 0.2564401294498382 0.1438187702265372 0.191715210355987 0.1876582278481013 0.1884493670886076 0.2430379746835443 0.1583860759493671 0.2224683544303797 0.1869281045751634 0.1477124183006536 0.2359477124183007 0.1640522875816994 0.265359477124183</probabilities>
+		</cpt>
+		<cpt id="OA_BAGDEPLY">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.5702322595704948 0.4297677404295052 0.3064724919093851 0.6935275080906149 0.2590981012658228 0.7409018987341772 0.2728758169934641 0.7271241830065359</probabilities>
+		</cpt>
+		<cpt id="OA_MANUSE">
+			<state id="State0" />
+			<state id="State1" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.09293300653594772 0.9070669934640523 0.1899676375404531 0.8100323624595469 0.2678006329113924 0.7321993670886076 0.3676470588235294 0.6323529411764706</probabilities>
+		</cpt>
+		<cpt id="OA_SEX">
+			<state id="State1" />
+			<state id="State2" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.4958858543417367 0.5041141456582633 0.4838187702265372 0.5161812297734628 0.5098892405063291 0.4901107594936709 0.6127450980392157 0.3872549019607843</probabilities>
+		</cpt>
+		<cpt id="VE_GAD1">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.1425215919701214 0.1398371848739496 0.5786793884220355 0.1389618347338936 0.1768608414239482 0.1179611650485437 0.6454692556634304 0.05970873786407767 0.2691851265822785 0.1133306962025316 0.5880142405063291 0.02946993670886076 0.2949346405228758 0.190359477124183 0.4485294117647059 0.06617647058823529</probabilities>
+		</cpt>
+		<cpt id="VE_PDOF_TR">
+			<state id="State1" />
+			<state id="State2" />
+			<state id="State3" />
+			<state id="State4" />
+			<state id="State5" />
+			<state id="State6" />
+			<parents>OA_MAIS</parents>
+			<probabilities>0.00316098661686897 0.002110566448801743 0.004503190164954872 0.005728680361033303 0.02055127606598195 0.9639453003423593 0.002049622437971953 0.004638619201725998 0.002049622437971953 0.007227615965480043 0.02405609492988134 0.9599784250269687 0.002505274261603375 0.004878691983122363 0.00646097046413502 0.01437236286919831 0.04443565400843882 0.9273470464135022 0.01034858387799564 0.007080610021786492 0.01361655773420479 0.02342047930283225 0.0332244008714597 0.9123093681917213</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.2.2414.0 ACADEMIC" name="DATA" faultnameformat="nodestate">
+			<node id="GV_CURBWGT">
+				<name>GV_CURBWGT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>435 157 507 205</position>
+			</node>
+			<node id="GV_DVLAT">
+				<name>GV_DVLAT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>417 211 489 259</position>
+			</node>
+			<node id="GV_DVLONG">
+				<name>GV_DVLONG</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>368 257 440 305</position>
+			</node>
+			<node id="GV_ENERGY">
+				<name>GV_ENERGY</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>295 285 367 333</position>
+			</node>
+			<node id="GV_LANES">
+				<name>GV_LANES</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>212 290 284 338</position>
+			</node>
+			<node id="GV_MODELYR">
+				<name>GV_MODELYR</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>133 273 205 321</position>
+			</node>
+			<node id="GV_OTVEHWGT">
+				<name>GV_OTVEHWGT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>70 236 142 284</position>
+			</node>
+			<node id="GV_SPLIMIT">
+				<name>GV_SPLIMIT</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>36 184 108 232</position>
+			</node>
+			<node id="GV_WGTCDTR">
+				<name>GV_WGTCDTR</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>36 130 108 178</position>
+			</node>
+			<node id="OA_AGE">
+				<name>OA_AGE</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>70 78 142 126</position>
+			</node>
+			<node id="OA_BAGDEPLY">
+				<name>OA_BAGDEPLY</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>132 41 204 89</position>
+			</node>
+			<node id="OA_MAIS">
+				<name>OA_MAIS</name>
+				<interior color="ffff80" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>233 157 305 205</position>
+			</node>
+			<node id="OA_MANUSE">
+				<name>OA_MANUSE</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>212 24 284 72</position>
+			</node>
+			<node id="OA_SEX">
+				<name>OA_SEX</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>295 29 367 77</position>
+			</node>
+			<node id="VE_GAD1">
+				<name>VE_GAD1</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>368 57 440 105</position>
+			</node>
+			<node id="VE_PDOF_TR">
+				<name>VE_PDOF_TR</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>417 103 489 151</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

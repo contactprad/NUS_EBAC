@@ -1,0 +1,102 @@
+﻿New Table( "Sheet1",
+	Add Rows( 60 ),
+	New Script(
+		"Source",
+		Open(
+			"D:\NUS\DataAnalytics\Assignments\Catherine\CPI_Exchange\ChopEnd_CPI_USd.xlsx",
+			Worksheets( "Sheet1" ),
+			Use for all sheets( 1 ),
+			Concatenate Worksheets( 0 ),
+			Create Concatenation Column( 0 ),
+			Worksheet Settings(
+				1,
+				Has Column Headers( 1 ),
+				Number of Rows in Headers( 1 ),
+				Headers Start on Row( 1 ),
+				Data Starts on Row( 2 ),
+				Data Starts on Column( 1 ),
+				Data Ends on Row( 0 ),
+				Data Ends on Column( 0 ),
+				Replicated Spanned Rows( 1 ),
+				Replicated Spanned Headers( 0 ),
+				Suppress Hidden Rows( 1 ),
+				Suppress Hidden Columns( 1 ),
+				Suppress Empty Columns( 1 ),
+				Treat as Hierarchy( 0 ),
+				Multiple Series Stack( 0 ),
+				Import Cell Colors( 0 ),
+				Limit Column Detect( 0 ),
+				Column Separator String( "-" )
+			)
+		)
+	),
+	New Column( "t",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+			21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+			39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
+			57, 58, 59, 60]
+		)
+	),
+	New Column( "Value (AGRWTH)",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[4.372623, 4.571429, 4.571429, 4.652825, 5.925406, 7.269146, 6.332198,
+			5.938375, 6.398648, 6.917439, 5.950735, 6.528648, 6.722689, 7.563025,
+			6.722689, 6.666667, 6.61157, 5.691057, 6.451613, 7.258065, 6.4, 5.511811,
+			5.511811, 5.511811, 5.511811, 5.46875, 7.874016, 7.8125, 7.751938,
+			7.692307, 8.333333, 9.022556, 9.774436, 10.44776, 10.44776, 9.701492,
+			10.44776, 9.62963, 8.029197, 8.695652, 8.633094, 9.285714, 11.88811,
+			11.72414, 11.64384, 11.48649, 13.51351, 14.96599, 16.21622, 14.86487,
+			14.86487, 13.33333, 13.90728, 13.72549, 11.25, 9.876543, 9.815951,
+			9.69697, 8.333333, 9.467456]
+		)
+	),
+	New Column( "USD INR Price",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[43.925, 44.275, 44.5, 44.9, 46.305, 45.88, 46.5, 46.48, 45.91, 44.92,
+			44.6, 44.115, 44.08, 44.09, 43.12, 41.045, 40.375, 40.525, 40.19, 40.64,
+			39.66, 39.195, 39.52, 39.405, 39.28, 39.92, 40.03, 40.46, 42.16, 42.93,
+			42.483, 43.87, 46.815, 49.325, 49.575, 48.62, 48.85, 51.005, 50.57,
+			49.725, 47.12, 47.75, 47.825, 48.69, 47.735, 46.925, 46.535, 46.41,
+			46.125, 46.105, 44.825, 44.275, 46.365, 46.445, 46.405, 47.065, 44.57,
+			44.325, 45.8, 44.713]
+		)
+	)
+) << Run Formulas;
+Time Series(
+	Y( :USD INR Price ),
+	Input List( :Name( "Value (AGRWTH)" ) ),
+	Input Series(
+		:Name( "Value (AGRWTH)" ),
+		Difference( 1 ),
+		Difference( 1, 1, 12 ),
+		ARIMA( 1, 1, 1 ),
+		Seasonal ARIMA( 0, 1, 0, 1, 1, 1, 12 ),
+		Prewhitening( Order( 0, 1, 0 ), Seasonal( 1, 1, 1, 12 ) )
+	),
+	SendToReport(
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: Value (AGRWTH)",
+			"Model: ARIMA(1, 1, 1)  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: Value (AGRWTH)",
+			"Model: Seasonal ARIMA(0, 1, 0)(1, 1, 1)12  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		)
+	)
+);

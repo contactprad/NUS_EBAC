@@ -1,0 +1,160 @@
+# Metadata for Convicted Penal Admission
+---
+Identifier: 'de1d5a55-10b6-4ba0-85d2-33519a699930'
+Name: 'convicted-penal-admission'
+Title: 'Convicted Penal Admission'
+Description: 'Convicted penal inmates admitted in each year.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Admission'
+  - 'Convicted'
+  - 'Inmate'
+  - 'Penal'
+  - 'Prison'
+  - 'Prisoner'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Prison Service'
+  Admin 1:
+    Name: 'Ivan Ho'
+    Department: 'Data Science Branch'
+    Email: 'Ivan_Ho@pris.gov.sg'
+  Admin 2:
+    Name: 'Wong Jin Wen'
+    Department: 'Data Science Branch'
+    Email: 'Wong_Jin_Wen@pris.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Prison Service'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2016-12-31'
+Last Updated: '2017-02-27T09:00:31.889791'
+Resources:
+  -
+    Identifier: '67d5276b-ff0e-4c66-b49e-07cb768332a8'
+    Title: 'Convicted Penal Admission'
+    Url: 'https://storage.data.gov.sg/convicted-penal-admission/resources/convicted-penal-admission-2017-02-27T08-49-10Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted penal inmates admitted in each year.'
+    Last Updated: '2017-02-27T08:49:10.401403'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'number_of_admissions'
+        Title: 'Number Of Admissions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number Of Admissions'
+  -
+    Identifier: '8177ca36-9dac-4aeb-8eb7-62698e9a4e26'
+    Title: 'Convicted Penal Admission by Age Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-admission/resources/convicted-penal-admission-by-age-group-2017-02-27T08-56-51Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted penal inmates admitted in each year breakdown by age group.'
+    Last Updated: '2017-02-27T08:56:51.545665'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'admissions_by_age_group'
+        Title: 'Admissions By Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_admissions'
+        Title: 'Number Of Admissions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '936f996e-82d5-4dde-8805-261e2941f566'
+    Title: 'Convicted Penal Admission by Education Level'
+    Url: 'https://storage.data.gov.sg/convicted-penal-admission/resources/convicted-penal-admission-by-education-level-2017-02-27T08-58-21Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted penal inmates admitted in each year breakdown by education
+      level.'
+    Last Updated: '2017-02-27T08:58:21.735585'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'admissions_by_education_level'
+        Title: 'Admissions By Education Level'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_admissions'
+        Title: 'Number Of Admissions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of inmates'
+  -
+    Identifier: 'b143b3c9-76ac-4df7-90ad-967d4175ed8b'
+    Title: 'Convicted Penal Admission by Gender'
+    Url: 'https://storage.data.gov.sg/convicted-penal-admission/resources/convicted-penal-admission-by-gender-2017-02-27T08-59-26Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted penal inmates admitted in each year breakdown by gender.'
+    Last Updated: '2017-02-27T08:59:26.434137'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'admissions_by_gender'
+        Title: 'Admissions By Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_admissions'
+        Title: 'Number Of Admissions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '86991d85-c2db-41b2-8290-daf4bbf80668'
+    Title: 'Convicted Penal Admission by Offence Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-admission/resources/convicted-penal-admission-by-offence-group-2017-02-27T09-00-31Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Convicted penal inmates admitted in each year breakdown by offence
+      group.'
+    Last Updated: '2017-02-27T09:00:31.670096'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'admissions_by_main_offence_group'
+        Title: 'Admissions By Main Offence Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_admissions'
+        Title: 'Number Of Admissions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+        Description: '"na" : Data not available or not applicable'

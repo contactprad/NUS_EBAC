@@ -1,0 +1,255 @@
+# Metadata for Convicted Penal Population
+---
+Identifier: '0aefd8d3-78f1-4d14-bdde-f5b4cd197bcd'
+Name: 'convicted-penal-inmates-population'
+Title: 'Convicted Penal Population'
+Description: 'Convicted Penal Population as at 31st December of each year.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Convicted'
+  - 'Inmate'
+  - 'Penal'
+  - 'Population'
+  - 'Prison'
+  - 'Prisoner'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Prison Service'
+  Admin 1:
+    Name: 'Ivan Ho'
+    Department: 'Data Science Branch'
+    Email: 'Ivan_Ho@pris.gov.sg'
+  Admin 2:
+    Name: 'Wong Jin Wen'
+    Department: 'Data Science Branch'
+    Email: 'Wong_Jin_Wen@pris.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Prison Service'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2016-12-31'
+Last Updated: '2017-06-16T03:37:15.480449'
+Resources:
+  -
+    Identifier: 'b53a919f-31df-4077-92c4-5d629c6038b1'
+    Title: 'Convicted Penal Population'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-2017-02-27T08-24-00Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted Penal Population as at 31st December of each year.'
+    Last Updated: '2017-02-27T08:24:00.707503'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '5c59d146-acb2-48d3-aac3-1de59eb20633'
+    Title: 'Convicted Penal Population by Age Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-age-group-2017-06-16T03-32-34Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted Penal Population as at 31st December of each year breakdown
+      by Age Group.'
+    Last Updated: '2017-06-16T03:32:34.267999'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_age_group'
+        Title: 'Population By Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '3ccfe79a-dcd1-427b-be63-e507a1ee7480'
+    Title: 'Convicted Penal Population by Education Level'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-education-level-2017-06-16T03-37-13Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted Penal Population as at 31st December of each year breakdown
+      by education level.'
+    Last Updated: '2017-06-16T03:37:13.794991'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_education_level'
+        Title: 'Population By Education Level'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '7070dc26-a95a-4560-8670-6682705a9cff'
+    Title: 'Convicted Penal Population by Gender'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-gender-2017-02-27T08-30-17Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2016-12-31'
+    Description: 'Convicted Penal Population as at 31st December of each year breakdown
+      by gender.'
+    Last Updated: '2017-02-27T08:30:17.329104'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_gender'
+        Title: 'Population By Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: 'e06a88bb-8a2b-4c88-a5e1-d8a17fbb80cb'
+    Title: 'Convicted Penal Population by Offence Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-offence-group-2017-02-27T08-31-36Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Convicted Penal Population as at 31st December of each year breakdown
+      by offence group.'
+    Last Updated: '2017-02-27T08:31:36.713765'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_main_offence_group'
+        Title: 'Population By Main Offence Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+        Description: '"na" : Data not available or not applicable'
+  -
+    Identifier: '1f644f67-a7e4-44e0-bd5a-307ebb5baded'
+    Title: 'Convicted Penal Population by Age Group and Offence Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-age-group-and-offence-group-2017-02-27T08-33-01Z.csv'
+    Format: 'CSV'
+    Coverage: '2012-01-01 to 2016-12-31'
+    Description: 'Population of convicted penal inmates in each year.'
+    Last Updated: '2017-02-27T08:33:01.935932'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_age_group'
+        Title: 'Population By Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'population_by_main_offence_group'
+        Title: 'Population By Main Offence Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '046b6c78-26b2-4e2b-bbef-740dfb14a690'
+    Title: 'Convicted Penal Population by Education Level and Offence Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-education-level-and-offence-group-2017-02-27T08-34-23Z.csv'
+    Format: 'CSV'
+    Coverage: '2012-01-01 to 2016-12-31'
+    Description: 'Population of convicted penal inmates in each year.'
+    Last Updated: '2017-02-27T08:34:23.367829'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_education_level'
+        Title: 'Population By Education Level'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'population_by_main_offence_group'
+        Title: 'Population By Main Offence Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: 'ff6936e6-4fcd-4985-99d4-07d1486eedfe'
+    Title: 'Convicted Penal Population by Gender and Offence Group'
+    Url: 'https://storage.data.gov.sg/convicted-penal-inmates-population/resources/convicted-penal-population-by-gender-and-offence-group-2017-02-27T08-37-51Z.csv'
+    Format: 'CSV'
+    Coverage: '2012-01-01 to 2016-12-31'
+    Description: 'Population of convicted penal inmates in each year.'
+    Last Updated: '2017-02-27T08:37:51.073213'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_gender'
+        Title: 'Population By Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'population_by_main_offence_group'
+        Title: 'Population By Main Offence Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'

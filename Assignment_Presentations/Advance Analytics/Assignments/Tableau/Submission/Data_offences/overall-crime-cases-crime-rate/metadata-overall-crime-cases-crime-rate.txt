@@ -1,0 +1,89 @@
+# Metadata for Overall Crime Cases & Crime Rate
+---
+Identifier: '18c05e04-5a81-40a1-a540-2fc9303ba74c'
+Name: 'overall-crime-cases-crime-rate'
+Title: 'Overall Crime Cases & Crime Rate'
+Description:
+  - 'Note:'
+  - 'Figures are based on Annual Statistical Reports on Crime in Singapore.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'crime'
+  - 'crime classes'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Police Force'
+  Admin 1:
+    Name: 'Ng Kok Hoe'
+    Department: 'Police Intelligence Department \ Intelligence Processing Division'
+    Email: 'NG_Kok_Hoe@spf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Police Force'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2015-12-31'
+Last Updated: '2017-02-06T07:25:04.965933'
+Resources:
+  -
+    Identifier: '56987172-00a3-4f0c-be4f-12f3e7ec4e1a'
+    Title: 'Overall Crime Cases & Crime Rate'
+    Url: 'https://storage.data.gov.sg/overall-crime-cases-crime-rate/resources/overall-crime-cases-crime-rate-2016-09-20T04-21-34Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Description:
+      - '1) Crime rate is the number of overall crime offences recorded per 100,000
+        total population.'
+      - '2) Source for total population of Singapore (Department of Statistics)'
+    Last Updated: '2016-09-20T04:21:34.365724'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'overall_crime_cases_recorded'
+        Title: 'Overall Crime Cases Recorded'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Cases'
+      -
+        Name: 'overall_crime_rate'
+        Title: 'Overall Crime Rate'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Per 100,000 population'
+  -
+    Identifier: 'efc3dd2a-8779-46be-b8c7-882712d49451'
+    Title: 'Overall Crime Cases Reported by Crime Classes'
+    Url: 'https://storage.data.gov.sg/overall-crime-cases-crime-rate/resources/overall-crime-cases-reported-by-crime-classes-2016-09-20T04-26-16Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Description:
+      - '1) There was a change in categorisation of ‘Causing Hurt by Act which Endangers
+        Human Life’ from ‘Crimes Against Persons’ to ‘Miscellaneous Crimes’ wef July
+        2011. Data is revised accordingly.'
+      - '2) Crime classification was renamed to ‘Violent/Serious Property Crimes’
+        in 2014 to reflect the changing nature of the crime and the growing trend
+        of cyber-extortions.  The basket of offences under this crime classification
+        remains the same.'
+    Last Updated: '2016-09-20T04:26:16.861324'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'crime_classes'
+        Title: 'Crime Classes'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'crime_cases'
+        Title: 'Crime Cases'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Cases'

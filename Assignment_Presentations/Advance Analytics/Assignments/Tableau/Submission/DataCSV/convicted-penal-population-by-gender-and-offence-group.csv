@@ -1,0 +1,91 @@
+year,population_by_gender,population_by_main_offence_group,number_of_population
+2012,Female,Crimes Against Person,24
+2012,Female,Commercial Crimes,84
+2012,Female,Crimes Against Public Order,2
+2012,Female,Customs Offences,11
+2012,Female,Drug Offences,485
+2012,Female,Immigration Offences,118
+2012,Female,Other Offences,11
+2012,Female,Property Crimes,88
+2012,Female,Traffic Offences,1
+2012,Male,Crimes Against Person,519
+2012,Male,Commercial Crimes,658
+2012,Male,Crimes Against Public Order,169
+2012,Male,Customs Offences,200
+2012,Male,Drug Offences,5802
+2012,Male,Immigration Offences,177
+2012,Male,Other Offences,180
+2012,Male,Property Crimes,1318
+2012,Male,Traffic Offences,54
+2013,Female,Crimes Against Person,21
+2013,Female,Commercial Crimes,95
+2013,Female,Crimes Against Public Order,1
+2013,Female,Customs Offences,12
+2013,Female,Drug Offences,532
+2013,Female,Immigration Offences,71
+2013,Female,Other Offences,19
+2013,Female,Property Crimes,121
+2013,Female,Traffic Offences,0
+2013,Male,Crimes Against Person,582
+2013,Male,Commercial Crimes,609
+2013,Male,Crimes Against Public Order,174
+2013,Male,Customs Offences,154
+2013,Male,Drug Offences,5978
+2013,Male,Immigration Offences,154
+2013,Male,Other Offences,225
+2013,Male,Property Crimes,1228
+2013,Male,Traffic Offences,66
+2014,Female,Crimes Against Person,21
+2014,Female,Commercial Crimes,79
+2014,Female,Crimes Against Public Order,2
+2014,Female,Customs Offences,15
+2014,Female,Drug Offences,547
+2014,Female,Immigration Offences,73
+2014,Female,Other Offences,16
+2014,Female,Property Crimes,114
+2014,Female,Traffic Offences,1
+2014,Male,Crimes Against Person,554
+2014,Male,Commercial Crimes,458
+2014,Male,Crimes Against Public Order,172
+2014,Male,Customs Offences,156
+2014,Male,Drug Offences,5980
+2014,Male,Immigration Offences,111
+2014,Male,Other Offences,263
+2014,Male,Property Crimes,1124
+2014,Male,Traffic Offences,68
+2015,Female,Crimes Against Person,27
+2015,Female,Commercial Crimes,70
+2015,Female,Crimes Against Public Order,1
+2015,Female,Customs Offences,3
+2015,Female,Drug Offences,555
+2015,Female,Immigration Offences,49
+2015,Female,Other Offences,16
+2015,Female,Property Crimes,97
+2015,Female,Traffic Offences,1
+2015,Male,Crimes Against Person,533
+2015,Male,Commercial Crimes,418
+2015,Male,Crimes Against Public Order,128
+2015,Male,Customs Offences,85
+2015,Male,Drug Offences,6120
+2015,Male,Immigration Offences,85
+2015,Male,Other Offences,303
+2015,Male,Property Crimes,1039
+2015,Male,Traffic Offences,72
+2016,Female,Crimes Against Person,29
+2016,Female,Commercial Crimes,93
+2016,Female,Crimes Against Public Order,4
+2016,Female,Customs Offences,12
+2016,Female,Drug Offences,578
+2016,Female,Immigration Offences,44
+2016,Female,Other Offences,8
+2016,Female,Property Crimes,111
+2016,Female,Traffic Offences,0
+2016,Male,Crimes Against Person,578
+2016,Male,Commercial Crimes,415
+2016,Male,Crimes Against Public Order,143
+2016,Male,Customs Offences,203
+2016,Male,Drug Offences,6088
+2016,Male,Immigration Offences,79
+2016,Male,Other Offences,151
+2016,Male,Property Crimes,894
+2016,Male,Traffic Offences,72

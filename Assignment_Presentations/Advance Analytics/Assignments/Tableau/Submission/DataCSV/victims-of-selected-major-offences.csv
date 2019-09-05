@@ -1,0 +1,129 @@
+year,offence,gender,no_of_victims
+2008,Murder,Male,16
+2008,Murder,Female,11
+2008,Rape,Male,0
+2008,Rape,Female,155
+2008,Outrage of Modesty,Male,80
+2008,Outrage of Modesty,Female,1279
+2008,Robbery,Male,750
+2008,Robbery,Female,277
+2008,Snatch Theft,Male,142
+2008,Snatch Theft,Female,514
+2008,Rioting,Male,605
+2008,Rioting,Female,27
+2008,Serious Hurt,Male,406
+2008,Serious Hurt,Female,83
+2008,Cheating & Related,Male,1173
+2008,Cheating & Related,Female,785
+2009,Murder,Male,13
+2009,Murder,Female,7
+2009,Rape,Male,0
+2009,Rape,Female,203
+2009,Outrage of Modesty,Male,73
+2009,Outrage of Modesty,Female,1253
+2009,Robbery,Male,585
+2009,Robbery,Female,228
+2009,Snatch Theft,Male,128
+2009,Snatch Theft,Female,433
+2009,Rioting,Male,440
+2009,Rioting,Female,12
+2009,Serious Hurt,Male,362
+2009,Serious Hurt,Female,75
+2009,Cheating & Related,Male,1265
+2009,Cheating & Related,Female,808
+2010,Murder,Male,16
+2010,Murder,Female,3
+2010,Rape,Male,0
+2010,Rape,Female,165
+2010,Outrage of Modesty,Male,74
+2010,Outrage of Modesty,Female,1437
+2010,Robbery,Male,394
+2010,Robbery,Female,183
+2010,Snatch Theft,Male,104
+2010,Snatch Theft,Female,326
+2010,Rioting,Male,421
+2010,Rioting,Female,26
+2010,Serious Hurt,Male,357
+2010,Serious Hurt,Female,105
+2010,Cheating & Related,Male,1256
+2010,Cheating & Related,Female,842
+2011,Murder,Male,10
+2011,Murder,Female,6
+2011,Rape,Male,0
+2011,Rape,Female,150
+2011,Outrage of Modesty,Male,82
+2011,Outrage of Modesty,Female,1400
+2011,Robbery,Male,316
+2011,Robbery,Female,134
+2011,Snatch Theft,Male,71
+2011,Snatch Theft,Female,279
+2011,Rioting,Male,240
+2011,Rioting,Female,21
+2011,Serious Hurt,Male,367
+2011,Serious Hurt,Female,71
+2011,Cheating & Related,Male,1212
+2011,Cheating & Related,Female,939
+2012,Murder,Male,5
+2012,Murder,Female,6
+2012,Rape,Male,0
+2012,Rape,Female,138
+2012,Outrage of Modesty,Male,89
+2012,Outrage of Modesty,Female,1417
+2012,Robbery,Male,222
+2012,Robbery,Female,111
+2012,Snatch Theft,Male,63
+2012,Snatch Theft,Female,227
+2012,Rioting,Male,304
+2012,Rioting,Female,17
+2012,Serious Hurt,Male,414
+2012,Serious Hurt,Female,73
+2012,Cheating & Related,Male,902
+2012,Cheating & Related,Female,806
+2013,Murder,Male,11
+2013,Murder,Female,6
+2013,Rape,Male,0
+2013,Rape,Female,123
+2013,Outrage of Modesty,Male,86
+2013,Outrage of Modesty,Female,1349
+2013,Robbery,Male,195
+2013,Robbery,Female,80
+2013,Snatch Theft,Male,45
+2013,Snatch Theft,Female,196
+2013,Rioting,Male,274
+2013,Rioting,Female,21
+2013,Serious Hurt,Male,418
+2013,Serious Hurt,Female,93
+2013,Cheating & Related,Male,1277
+2013,Cheating & Related,Female,951
+2014,Murder,Male,7
+2014,Murder,Female,7
+2014,Rape,Male,0
+2014,Rape,Female,166
+2014,Outrage of Modesty,Male,85
+2014,Outrage of Modesty,Female,1365
+2014,Robbery,Male,193
+2014,Robbery,Female,60
+2014,Snatch Theft,Male,39
+2014,Snatch Theft,Female,126
+2014,Rioting,Male,236
+2014,Rioting,Female,16
+2014,Serious Hurt,Male,424
+2014,Serious Hurt,Female,91
+2014,Cheating & Related,Male,2179
+2014,Cheating & Related,Female,1632
+2015,Murder,Male,11
+2015,Murder,Female,3
+2015,Rape,Male,0
+2015,Rape,Female,167
+2015,Outrage of Modesty,Male,90
+2015,Outrage of Modesty,Female,1279
+2015,Robbery,Male,96
+2015,Robbery,Female,36
+2015,Snatch Theft,Male,12
+2015,Snatch Theft,Female,72
+2015,Rioting,Male,165
+2015,Rioting,Female,15
+2015,Serious Hurt,Male,409
+2015,Serious Hurt,Female,113
+2015,Cheating & Related,Male,4126
+2015,Cheating & Related,Female,2492

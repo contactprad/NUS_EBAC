@@ -1,0 +1,60 @@
+# Metadata for Judicial Executions
+---
+Identifier: '7136a9f2-c48d-4f42-a850-5f82d69535fd'
+Name: 'judicial-executions'
+Title: 'Judicial Executions'
+Description: 'Number of Judicial Executions in each year breakdown by offence.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Drug Trafficking'
+  - 'Execution'
+  - 'Firearms'
+  - 'Inmate'
+  - 'Judicial'
+  - 'Murder'
+  - 'Prison'
+  - 'Prisoner'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Prison Service'
+  Admin 1:
+    Name: 'Ivan Ho'
+    Department: 'Data Science Branch'
+    Email: 'Ivan_Ho@pris.gov.sg'
+  Admin 2:
+    Name: 'Wong Jin Wen'
+    Department: 'Data Science Branch'
+    Email: 'Wong_Jin_Wen@pris.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Prison Service'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2007-01-01 to 2016-12-31'
+Last Updated: '2017-02-27T07:42:09.746069'
+Resources:
+  -
+    Identifier: 'c8630e0f-e9e3-478a-91e7-85c9fea5e3db'
+    Title: 'Judicial Executions'
+    Url: 'https://storage.data.gov.sg/judicial-executions/resources/judicial-executions-2017-02-27T07-42-09Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Number of Judicial Executions in each year breakdown by offence.'
+    Last Updated: '2017-02-27T07:42:09.596368'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'types_of_judical_executions'
+        Title: 'Types Of Judical Executions'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_judical_executions'
+        Title: 'Number Of Judical Executions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Executions'

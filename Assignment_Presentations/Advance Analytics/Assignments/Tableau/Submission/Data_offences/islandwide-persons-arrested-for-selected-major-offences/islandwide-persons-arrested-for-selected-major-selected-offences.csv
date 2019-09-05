@@ -1,0 +1,161 @@
+year,offence,gender,no_of_persons_arrested
+2008,Murder,Male,37
+2008,Murder,Female,4
+2008,Rape,Male,62
+2008,Rape,Female,1
+2008,Outrage of Modesty,Male,746
+2008,Outrage of Modesty,Female,6
+2008,Robbery,Male,407
+2008,Robbery,Female,27
+2008,Housebreaking,Male,251
+2008,Housebreaking,Female,12
+2008,Theft of Motor Vehicle,Male,177
+2008,Theft of Motor Vehicle,Female,8
+2008,Snatch Theft,Male,106
+2008,Snatch Theft,Female,2
+2008,Rioting,Male,738
+2008,Rioting,Female,65
+2008,Serious Hurt,Male,256
+2008,Serious Hurt,Female,28
+2008,Cheating & Related,Male,1121
+2008,Cheating & Related,Female,446
+2009,Murder,Male,18
+2009,Murder,Female,3
+2009,Rape,Male,61
+2009,Rape,Female,0
+2009,Outrage of Modesty,Male,713
+2009,Outrage of Modesty,Female,6
+2009,Robbery,Male,359
+2009,Robbery,Female,20
+2009,Housebreaking,Male,268
+2009,Housebreaking,Female,13
+2009,Theft of Motor Vehicle,Male,223
+2009,Theft of Motor Vehicle,Female,6
+2009,Snatch Theft,Male,104
+2009,Snatch Theft,Female,7
+2009,Rioting,Male,732
+2009,Rioting,Female,46
+2009,Serious Hurt,Male,272
+2009,Serious Hurt,Female,36
+2009,Cheating & Related,Male,1050
+2009,Cheating & Related,Female,452
+2010,Murder,Male,53
+2010,Murder,Female,1
+2010,Rape,Male,59
+2010,Rape,Female,0
+2010,Outrage of Modesty,Male,880
+2010,Outrage of Modesty,Female,9
+2010,Robbery,Male,311
+2010,Robbery,Female,15
+2010,Housebreaking,Male,249
+2010,Housebreaking,Female,22
+2010,Theft of Motor Vehicle,Male,169
+2010,Theft of Motor Vehicle,Female,14
+2010,Snatch Theft,Male,96
+2010,Snatch Theft,Female,6
+2010,Rioting,Male,920
+2010,Rioting,Female,67
+2010,Serious Hurt,Male,309
+2010,Serious Hurt,Female,44
+2010,Cheating & Related,Male,1180
+2010,Cheating & Related,Female,470
+2011,Murder,Male,28
+2011,Murder,Female,2
+2011,Rape,Male,44
+2011,Rape,Female,0
+2011,Outrage of Modesty,Male,796
+2011,Outrage of Modesty,Female,7
+2011,Robbery,Male,283
+2011,Robbery,Female,21
+2011,Housebreaking,Male,251
+2011,Housebreaking,Female,21
+2011,Theft of Motor Vehicle,Male,183
+2011,Theft of Motor Vehicle,Female,13
+2011,Snatch Theft,Male,86
+2011,Snatch Theft,Female,3
+2011,Rioting,Male,631
+2011,Rioting,Female,71
+2011,Serious Hurt,Male,260
+2011,Serious Hurt,Female,42
+2011,Cheating & Related,Male,1086
+2011,Cheating & Related,Female,437
+2012,Murder,Male,16
+2012,Murder,Female,0
+2012,Rape,Male,79
+2012,Rape,Female,0
+2012,Outrage of Modesty,Male,810
+2012,Outrage of Modesty,Female,6
+2012,Robbery,Male,257
+2012,Robbery,Female,19
+2012,Housebreaking,Male,218
+2012,Housebreaking,Female,19
+2012,Theft of Motor Vehicle,Male,133
+2012,Theft of Motor Vehicle,Female,7
+2012,Snatch Theft,Male,78
+2012,Snatch Theft,Female,4
+2012,Rioting,Male,554
+2012,Rioting,Female,40
+2012,Serious Hurt,Male,325
+2012,Serious Hurt,Female,39
+2012,Cheating & Related,Male,1045
+2012,Cheating & Related,Female,418
+2013,Murder,Male,25
+2013,Murder,Female,4
+2013,Rape,Male,75
+2013,Rape,Female,0
+2013,Outrage of Modesty,Male,778
+2013,Outrage of Modesty,Female,3
+2013,Robbery,Male,237
+2013,Robbery,Female,10
+2013,Housebreaking,Male,229
+2013,Housebreaking,Female,16
+2013,Theft of Motor Vehicle,Male,103
+2013,Theft of Motor Vehicle,Female,4
+2013,Snatch Theft,Male,81
+2013,Snatch Theft,Female,4
+2013,Rioting,Male,607
+2013,Rioting,Female,42
+2013,Serious Hurt,Male,370
+2013,Serious Hurt,Female,36
+2013,Cheating & Related,Male,1027
+2013,Cheating & Related,Female,408
+2014,Murder,Male,19
+2014,Murder,Female,5
+2014,Rape,Male,104
+2014,Rape,Female,0
+2014,Outrage of Modesty,Male,837
+2014,Outrage of Modesty,Female,6
+2014,Robbery,Male,201
+2014,Robbery,Female,9
+2014,Housebreaking,Male,172
+2014,Housebreaking,Female,10
+2014,Theft of Motor Vehicle,Male,114
+2014,Theft of Motor Vehicle,Female,7
+2014,Snatch Theft,Male,64
+2014,Snatch Theft,Female,4
+2014,Rioting,Male,645
+2014,Rioting,Female,52
+2014,Serious Hurt,Male,446
+2014,Serious Hurt,Female,33
+2014,Cheating & Related,Male,1111
+2014,Cheating & Related,Female,432
+2015,Murder,Male,14
+2015,Murder,Female,4
+2015,Rape,Male,75
+2015,Rape,Female,0
+2015,Outrage of Modesty,Male,856
+2015,Outrage of Modesty,Female,5
+2015,Robbery,Male,117
+2015,Robbery,Female,9
+2015,Housebreaking,Male,188
+2015,Housebreaking,Female,6
+2015,Theft of Motor Vehicle,Male,133
+2015,Theft of Motor Vehicle,Female,8
+2015,Snatch Theft,Male,39
+2015,Snatch Theft,Female,2
+2015,Rioting,Male,492
+2015,Rioting,Female,38
+2015,Serious Hurt,Male,413
+2015,Serious Hurt,Female,47
+2015,Cheating & Related,Male,1297
+2015,Cheating & Related,Female,586

@@ -1,0 +1,60 @@
+# Metadata for Recidivism Rate
+---
+Identifier: '616ebd1a-41c8-4e65-b0a7-63a8a71a2403'
+Name: 'recidivism-rate'
+Title: 'Recidivism Rate'
+Description: 'Local inmates released during a specific time period who are detained
+  or convicted and imprisoned again for any new offence following their release.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Prison'
+  - 'Prisoner'
+  - 'Recid'
+  - 'Recidivate'
+  - 'Recidivism'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Prison Service'
+  Admin 1:
+    Name: 'Ivan Ho'
+    Department: 'Data Science Branch'
+    Email: 'Ivan_Ho@pris.gov.sg'
+  Admin 2:
+    Name: 'Wong Jin Wen'
+    Department: 'Data Science Branch'
+    Email: 'Wong_Jin_Wen@pris.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Prison Service'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2005-01-01 to 2014-12-31'
+Last Updated: '2017-02-27T07:28:04.909740'
+Resources:
+  -
+    Identifier: '9e5a8817-2fc8-41cd-9d1f-8bc1846d86c1'
+    Title: 'Recidivism Rate'
+    Url: 'https://storage.data.gov.sg/recidivism-rate/resources/recidivism-rate-2017-02-27T06-50-41Z.csv'
+    Format: 'CSV'
+    Coverage: '2005-01-01 to 2014-12-31'
+    Description: 'Local inmates released during a specific time period who are detained
+      or convicted and imprisoned again for any new offence following their release.'
+    Last Updated: '2017-02-27T06:50:41.591588'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'types_of_recidivism_rates'
+        Title: 'Types Of Recidivism Rates'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: '2_year_recidivism_rates'
+        Title: '2 Year Recidivism Rates'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

@@ -1,0 +1,58 @@
+# Metadata for Number of Enforcement by Type, Annual
+---
+Identifier: '44aac5d7-5d52-437b-a67a-dbb2222af5df'
+Name: 'number-of-enforcement-by-type-annual'
+Title: 'Number of Enforcement by Type, Annual'
+Description: 'The number of Enforcement Checks carried out by SCDF and the number
+  of Fire Hazard Abatement Notices (FHANs) and Notice of Fire Safety Offences (NFSOs)
+  that were issued annually.'
+Topics:
+  - 'Environment'
+  - 'Society'
+Keywords:
+  - 'Enforcement'
+  - 'FHANs'
+  - 'MySCDF'
+  - 'NFSOs'
+  - 'SCDF'
+  - 'SCDF HQ'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Civil Defence Force'
+  Admin 1:
+    Name: 'Kang Kim Long'
+    Department: 'Central Enforcement Department'
+    Email: 'kang_kim_long@scdf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Civil Defence Force'
+Source Url: 'https://www.scdf.gov.sg/sites/www.scdf.gov.sg/files/Annual_Report_FY_2015_2016.pdf'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2015-12-31'
+Last Updated: '2017-11-02T07:20:18.991647'
+Resources:
+  -
+    Identifier: 'c8d03b0f-ce15-4975-8dc3-ee55a192fe75'
+    Name: 'number-of-enforcement-by-type-annual.csv'
+    Title: 'Number of Enforcement by Type, Annual'
+    Url: 'https://data.gov.sg/dataset/44aac5d7-5d52-437b-a67a-dbb2222af5df/resource/c8d03b0f-ce15-4975-8dc3-ee55a192fe75/download/number-of-enforcement-by-type-annual.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2015-12-31'
+    Last Updated: '2016-06-15T02:05:40.944777'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_enforcement'
+        Title: 'Number of enforcement'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'

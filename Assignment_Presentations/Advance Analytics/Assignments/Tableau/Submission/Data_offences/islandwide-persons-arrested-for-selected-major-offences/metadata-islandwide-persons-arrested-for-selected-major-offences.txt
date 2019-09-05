@@ -1,0 +1,94 @@
+# Metadata for Islandwide Persons Arrested for  Selected Major Offences
+---
+Identifier: '5508e7e3-6caf-4fd9-8a5f-fed95ab5fbdc'
+Name: 'islandwide-persons-arrested-for-selected-major-offences'
+Title: 'Islandwide Persons Arrested for  Selected Major Offences'
+Description: 'Note: Figures are based on Annual Statistical Reports on Crime in Singapore.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'arrested'
+  - 'crime'
+  - 'offence'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Police Force'
+  Admin 1:
+    Name: 'Ng Kok Hoe'
+    Department: 'Police Intelligence Department \ Intelligence Processing Division'
+    Email: 'NG_Kok_Hoe@spf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Police Force'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2015-12-31'
+Last Updated: '2017-02-06T07:05:48.189657'
+Resources:
+  -
+    Identifier: '53d967e2-c5aa-42ac-829e-f69a4c2b0bed'
+    Title: 'Islandwide Persons Arrested for  Selected Major Selected Offences'
+    Url: 'https://storage.data.gov.sg/islandwide-persons-arrested-for-selected-major-offences/resources/islandwide-persons-arrested-for-selected-major-selected-offences-2016-09-20T06-25-12Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Last Updated: '2016-09-20T06:25:12.113028'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'offence'
+        Title: 'Offence'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_persons_arrested'
+        Title: 'No. Of Persons Arrested'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Persons Arrested'
+  -
+    Identifier: '78462958-9c0b-4d82-8106-85a1c6a2be43'
+    Title: 'Islandwide Persons Arrested for  Selected Major Selected Offences by Age
+      Group'
+    Url: 'https://storage.data.gov.sg/islandwide-persons-arrested-for-selected-major-offences/resources/islandwide-persons-arrested-for-selected-major-selected-offences-by-age-group-2016-09-20T06-25-38Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Description: 'NA denote Not Available. Compilation of Offenders aged 20-21 yrs
+      started wef 2009'
+    Last Updated: '2016-09-20T06:25:38.211601'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'offence'
+        Title: 'Offence'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'age_group'
+        Title: 'Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_persons_arrested'
+        Title: 'No. Of Persons Arrested'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Persons Arrested'
+        Description: '"na" : Data not available or not applicable'

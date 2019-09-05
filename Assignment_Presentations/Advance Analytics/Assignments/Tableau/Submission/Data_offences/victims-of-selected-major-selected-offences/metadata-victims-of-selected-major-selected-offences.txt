@@ -1,0 +1,91 @@
+# Metadata for Victims of Selected Major Selected Offences
+---
+Identifier: 'e46a6fa4-fd7d-4a1b-aeca-9bec824ec9fb'
+Name: 'victims-of-selected-major-selected-offences'
+Title: 'Victims of Selected Major Selected Offences'
+Description: 'Note: Figures are based on Annual Statistical Reports on Crime in Singapore.'
+Topics:
+  - 'Society'
+Keywords:
+  - 'crime'
+  - 'offence'
+  - 'victims'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Police Force'
+  Admin 1:
+    Name: 'Ng Kok Hoe'
+    Department: 'Police Intelligence Department \ Intelligence Processing Division'
+    Email: 'NG_Kok_Hoe@spf.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Police Force'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2008-01-01 to 2015-12-31'
+Last Updated: '2017-02-06T08:03:22.062452'
+Resources:
+  -
+    Identifier: 'b166894e-e05f-4930-b533-85d643046097'
+    Title: 'Victims of Selected Major Offences'
+    Url: 'https://storage.data.gov.sg/victims-of-selected-major-selected-offences/resources/victims-of-selected-major-offences-2016-09-20T06-41-38Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Last Updated: '2016-09-20T06:41:38.940830'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'offence'
+        Title: 'Offence'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_victims'
+        Title: 'No. Of Victims'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Victims'
+  -
+    Identifier: 'b71a68b2-e059-4af3-a084-25ac73cab811'
+    Title: 'Victims of Selected Major Selected Offences By Age Group'
+    Url: 'https://storage.data.gov.sg/victims-of-selected-major-selected-offences/resources/victims-of-selected-major-selected-offences-by-age-group-2016-09-20T06-59-44Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2015-12-31'
+    Last Updated: '2016-09-20T06:59:44.241650'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'offence'
+        Title: 'Offence'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'age_group'
+        Title: 'Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_victims'
+        Title: 'No. Of Victims'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Victims'
+        Description: '"na" : Data not available or not applicable'

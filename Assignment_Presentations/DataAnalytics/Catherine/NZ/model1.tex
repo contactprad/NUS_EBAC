@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,pdftex]{geometry}
+\usepackage{longtable}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+Model 1: OLS, using observations 2010:01--2015:12 ($T$ = 72)\\
+Dependent variable: NZRT\\
+
+\vspace{1em}
+
+\begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}
+  &
+ \multicolumn{2}{c}{Coefficient} &
+  \multicolumn{2}{c}{Std.\ Error} &
+   \multicolumn{2}{c}{$t$-ratio} &
+    \multicolumn{2}{c}{p-value} \\[1ex]
+const &
+  101&536 &
+    4&06319 &
+      24&99 &
+        0&0000 \\
+OCS &
+  0&243397 &
+    0&0120739 &
+      20&16 &
+        0&0000 \\
+\end{tabular}
+
+\vspace{1ex}
+\begin{tabular}{lrlr}
+Mean dependent var &  182.7633 & S.D. dependent var &  11.50479 \\
+Sum squared resid &  1380.885 & S.E. of regression &  4.441501 \\
+$R^2$ &  0.853059 & Adjusted $R^2$ &  0.850960 \\
+$F(1, 70)$ &  406.3827 & P-value($F$) &  7.27\textrm{e--31} \\
+Log-likelihood & $-$208.5009 & Akaike criterion &  421.0018 \\
+Schwarz criterion &  425.5551 & Hannan--Quinn &  422.8145 \\
+$\hat{\rho}$ &  0.064348 & Durbin--Watson &  1.814539 \\
+\end{tabular}
+
+
+\end{center}
+
+\end{document}

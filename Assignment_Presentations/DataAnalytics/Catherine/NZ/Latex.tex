@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,pdftex]{geometry}
+\usepackage{longtable}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+Model 2: OLS, using observations 2010:03--2015:12 ($T$ = 70)\\
+Dependent variable: d\_NZRT\\
+
+\vspace{1em}
+
+\begin{tabular}{lr@{.}lr@{.}lr@{.}lr@{.}l}
+  &
+ \multicolumn{2}{c}{Coefficient} &
+  \multicolumn{2}{c}{Std.\ Error} &
+   \multicolumn{2}{c}{$t$-ratio} &
+    \multicolumn{2}{c}{p-value} \\[1ex]
+d\_OCS\_1 &
+  $-$0&0819673 &
+    0&0835990 &
+      $-$0&9805 &
+        0&3304 \\
+uhat1\_1 &
+  $-$0&969555 &
+    0&197726 &
+      $-$4&904 &
+        0&0000 \\
+d\_NZRT\_1 &
+  0&0794030 &
+    0&143081 &
+      0&5550 &
+        0&5808 \\
+\end{tabular}
+
+\vspace{1ex}
+\begin{tabular}{lrlr}
+Mean dependent var &  0.530000 & S.D. dependent var &  6.538217 \\
+Sum squared resid &  1836.296 & S.E. of regression &  5.235209 \\
+Uncentered $R^2$ &  0.381572 & Centered $R^2$ &  0.377449 \\
+$F(3, 67)$ &  13.77971 & P-value($F$) &  4.25\textrm{e--07} \\
+Log-likelihood & $-$213.6711 & Akaike criterion &  433.3421 \\
+Schwarz criterion &  440.0876 & Hannan--Quinn &  436.0215 \\
+$\hat{\rho}$ &  0.023137 & Durbin--Watson &  1.940730 \\
+\end{tabular}
+
+
+\end{center}
+
+\end{document}

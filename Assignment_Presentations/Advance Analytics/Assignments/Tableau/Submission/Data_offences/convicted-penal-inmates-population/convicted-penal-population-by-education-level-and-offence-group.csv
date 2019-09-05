@@ -1,0 +1,271 @@
+year,population_by_education_level,population_by_main_offence_group,number_of_population
+2012,No Education,Crimes Against Person,9
+2012,No Education,Commercial Crimes,2
+2012,No Education,Crimes Against Public Order,2
+2012,No Education,Customs Offences,3
+2012,No Education,Drug Offences,95
+2012,No Education,Immigration Offences,12
+2012,No Education,Other Offences,5
+2012,No Education,Property Crimes,15
+2012,No Education,Traffic Offences,0
+2012,PreU,Crimes Against Person,12
+2012,PreU,Commercial Crimes,25
+2012,PreU,Crimes Against Public Order,3
+2012,PreU,Customs Offences,4
+2012,PreU,Drug Offences,49
+2012,PreU,Immigration Offences,11
+2012,PreU,Other Offences,6
+2012,PreU,Property Crimes,22
+2012,PreU,Traffic Offences,3
+2012,Primary,Crimes Against Person,202
+2012,Primary,Commercial Crimes,141
+2012,Primary,Crimes Against Public Order,49
+2012,Primary,Customs Offences,103
+2012,Primary,Drug Offences,2694
+2012,Primary,Immigration Offences,151
+2012,Primary,Other Offences,50
+2012,Primary,Property Crimes,521
+2012,Primary,Traffic Offences,13
+2012,Secondary,Crimes Against Person,263
+2012,Secondary,Commercial Crimes,435
+2012,Secondary,Crimes Against Public Order,98
+2012,Secondary,Customs Offences,93
+2012,Secondary,Drug Offences,2973
+2012,Secondary,Immigration Offences,110
+2012,Secondary,Other Offences,97
+2012,Secondary,Property Crimes,689
+2012,Secondary,Traffic Offences,27
+2012,Vocational,Crimes Against Person,23
+2012,Vocational,Commercial Crimes,62
+2012,Vocational,Crimes Against Public Order,13
+2012,Vocational,Customs Offences,5
+2012,Vocational,Drug Offences,394
+2012,Vocational,Immigration Offences,0
+2012,Vocational,Other Offences,14
+2012,Vocational,Property Crimes,103
+2012,Vocational,Traffic Offences,5
+2012,Diploma/Tertiary,Crimes Against Person,34
+2012,Diploma/Tertiary,Commercial Crimes,77
+2012,Diploma/Tertiary,Crimes Against Public Order,6
+2012,Diploma/Tertiary,Customs Offences,3
+2012,Diploma/Tertiary,Drug Offences,82
+2012,Diploma/Tertiary,Immigration Offences,11
+2012,Diploma/Tertiary,Other Offences,19
+2012,Diploma/Tertiary,Property Crimes,56
+2012,Diploma/Tertiary,Traffic Offences,7
+2013,No Education,Crimes Against Person,7
+2013,No Education,Commercial Crimes,3
+2013,No Education,Crimes Against Public Order,5
+2013,No Education,Customs Offences,1
+2013,No Education,Drug Offences,95
+2013,No Education,Immigration Offences,12
+2013,No Education,Other Offences,4
+2013,No Education,Property Crimes,15
+2013,No Education,Traffic Offences,0
+2013,PreU,Crimes Against Person,12
+2013,PreU,Commercial Crimes,31
+2013,PreU,Crimes Against Public Order,1
+2013,PreU,Customs Offences,3
+2013,PreU,Drug Offences,62
+2013,PreU,Immigration Offences,4
+2013,PreU,Other Offences,5
+2013,PreU,Property Crimes,27
+2013,PreU,Traffic Offences,1
+2013,Primary,Crimes Against Person,216
+2013,Primary,Commercial Crimes,135
+2013,Primary,Crimes Against Public Order,45
+2013,Primary,Customs Offences,64
+2013,Primary,Drug Offences,2776
+2013,Primary,Immigration Offences,127
+2013,Primary,Other Offences,78
+2013,Primary,Property Crimes,471
+2013,Primary,Traffic Offences,10
+2013,Secondary,Crimes Against Person,283
+2013,Secondary,Commercial Crimes,395
+2013,Secondary,Crimes Against Public Order,105
+2013,Secondary,Customs Offences,90
+2013,Secondary,Drug Offences,3087
+2013,Secondary,Immigration Offences,78
+2013,Secondary,Other Offences,122
+2013,Secondary,Property Crimes,651
+2013,Secondary,Traffic Offences,36
+2013,Vocational,Crimes Against Person,42
+2013,Vocational,Commercial Crimes,51
+2013,Vocational,Crimes Against Public Order,18
+2013,Vocational,Customs Offences,3
+2013,Vocational,Drug Offences,398
+2013,Vocational,Immigration Offences,0
+2013,Vocational,Other Offences,18
+2013,Vocational,Property Crimes,113
+2013,Vocational,Traffic Offences,8
+2013,Diploma/Tertiary,Crimes Against Person,43
+2013,Diploma/Tertiary,Commercial Crimes,89
+2013,Diploma/Tertiary,Crimes Against Public Order,1
+2013,Diploma/Tertiary,Customs Offences,5
+2013,Diploma/Tertiary,Drug Offences,92
+2013,Diploma/Tertiary,Immigration Offences,4
+2013,Diploma/Tertiary,Other Offences,17
+2013,Diploma/Tertiary,Property Crimes,72
+2013,Diploma/Tertiary,Traffic Offences,11
+2014,No Education,Crimes Against Person,8
+2014,No Education,Commercial Crimes,1
+2014,No Education,Crimes Against Public Order,5
+2014,No Education,Customs Offences,2
+2014,No Education,Drug Offences,109
+2014,No Education,Immigration Offences,10
+2014,No Education,Other Offences,4
+2014,No Education,Property Crimes,16
+2014,No Education,Traffic Offences,0
+2014,PreU,Crimes Against Person,15
+2014,PreU,Commercial Crimes,26
+2014,PreU,Crimes Against Public Order,0
+2014,PreU,Customs Offences,1
+2014,PreU,Drug Offences,66
+2014,PreU,Immigration Offences,6
+2014,PreU,Other Offences,6
+2014,PreU,Property Crimes,23
+2014,PreU,Traffic Offences,3
+2014,Primary,Crimes Against Person,210
+2014,Primary,Commercial Crimes,89
+2014,Primary,Crimes Against Public Order,45
+2014,Primary,Customs Offences,64
+2014,Primary,Drug Offences,2800
+2014,Primary,Immigration Offences,87
+2014,Primary,Other Offences,80
+2014,Primary,Property Crimes,422
+2014,Primary,Traffic Offences,14
+2014,Secondary,Crimes Against Person,261
+2014,Secondary,Commercial Crimes,316
+2014,Secondary,Crimes Against Public Order,100
+2014,Secondary,Customs Offences,90
+2014,Secondary,Drug Offences,3061
+2014,Secondary,Immigration Offences,77
+2014,Secondary,Other Offences,152
+2014,Secondary,Property Crimes,593
+2014,Secondary,Traffic Offences,36
+2014,Vocational,Crimes Against Person,37
+2014,Vocational,Commercial Crimes,39
+2014,Vocational,Crimes Against Public Order,21
+2014,Vocational,Customs Offences,6
+2014,Vocational,Drug Offences,412
+2014,Vocational,Immigration Offences,1
+2014,Vocational,Other Offences,14
+2014,Vocational,Property Crimes,107
+2014,Vocational,Traffic Offences,7
+2014,Diploma/Tertiary,Crimes Against Person,44
+2014,Diploma/Tertiary,Commercial Crimes,66
+2014,Diploma/Tertiary,Crimes Against Public Order,3
+2014,Diploma/Tertiary,Customs Offences,8
+2014,Diploma/Tertiary,Drug Offences,79
+2014,Diploma/Tertiary,Immigration Offences,3
+2014,Diploma/Tertiary,Other Offences,23
+2014,Diploma/Tertiary,Property Crimes,77
+2014,Diploma/Tertiary,Traffic Offences,9
+2015,No Education,Crimes Against Person,12
+2015,No Education,Commercial Crimes,2
+2015,No Education,Crimes Against Public Order,2
+2015,No Education,Customs Offences,3
+2015,No Education,Drug Offences,116
+2015,No Education,Immigration Offences,5
+2015,No Education,Other Offences,3
+2015,No Education,Property Crimes,14
+2015,No Education,Traffic Offences,0
+2015,PreU,Crimes Against Person,14
+2015,PreU,Commercial Crimes,26
+2015,PreU,Crimes Against Public Order,0
+2015,PreU,Customs Offences,1
+2015,PreU,Drug Offences,74
+2015,PreU,Immigration Offences,5
+2015,PreU,Other Offences,5
+2015,PreU,Property Crimes,27
+2015,PreU,Traffic Offences,6
+2015,Primary,Crimes Against Person,183
+2015,Primary,Commercial Crimes,77
+2015,Primary,Crimes Against Public Order,51
+2015,Primary,Customs Offences,37
+2015,Primary,Drug Offences,2758
+2015,Primary,Immigration Offences,55
+2015,Primary,Other Offences,100
+2015,Primary,Property Crimes,378
+2015,Primary,Traffic Offences,13
+2015,Secondary,Crimes Against Person,271
+2015,Secondary,Commercial Crimes,288
+2015,Secondary,Crimes Against Public Order,62
+2015,Secondary,Customs Offences,45
+2015,Secondary,Drug Offences,3181
+2015,Secondary,Immigration Offences,64
+2015,Secondary,Other Offences,165
+2015,Secondary,Property Crimes,557
+2015,Secondary,Traffic Offences,32
+2015,Vocational,Crimes Against Person,33
+2015,Vocational,Commercial Crimes,35
+2015,Vocational,Crimes Against Public Order,10
+2015,Vocational,Customs Offences,1
+2015,Vocational,Drug Offences,451
+2015,Vocational,Immigration Offences,1
+2015,Vocational,Other Offences,28
+2015,Vocational,Property Crimes,89
+2015,Vocational,Traffic Offences,9
+2015,Diploma/Tertiary,Crimes Against Person,47
+2015,Diploma/Tertiary,Commercial Crimes,60
+2015,Diploma/Tertiary,Crimes Against Public Order,4
+2015,Diploma/Tertiary,Customs Offences,1
+2015,Diploma/Tertiary,Drug Offences,95
+2015,Diploma/Tertiary,Immigration Offences,4
+2015,Diploma/Tertiary,Other Offences,18
+2015,Diploma/Tertiary,Property Crimes,71
+2015,Diploma/Tertiary,Traffic Offences,13
+2016,No Education,Crimes Against Person,16
+2016,No Education,Commercial Crimes,1
+2016,No Education,Crimes Against Public Order,1
+2016,No Education,Customs Offences,1
+2016,No Education,Drug Offences,121
+2016,No Education,Immigration Offences,4
+2016,No Education,Other Offences,2
+2016,No Education,Property Crimes,15
+2016,No Education,Traffic Offences,0
+2016,PreU,Crimes Against Person,17
+2016,PreU,Commercial Crimes,22
+2016,PreU,Crimes Against Public Order,4
+2016,PreU,Customs Offences,1
+2016,PreU,Drug Offences,94
+2016,PreU,Immigration Offences,3
+2016,PreU,Other Offences,9
+2016,PreU,Property Crimes,38
+2016,PreU,Traffic Offences,5
+2016,Primary,Crimes Against Person,191
+2016,Primary,Commercial Crimes,89
+2016,Primary,Crimes Against Public Order,39
+2016,Primary,Customs Offences,87
+2016,Primary,Drug Offences,2667
+2016,Primary,Immigration Offences,55
+2016,Primary,Other Offences,40
+2016,Primary,Property Crimes,322
+2016,Primary,Traffic Offences,6
+2016,Secondary,Crimes Against Person,270
+2016,Secondary,Commercial Crimes,284
+2016,Secondary,Crimes Against Public Order,81
+2016,Secondary,Customs Offences,113
+2016,Secondary,Drug Offences,3176
+2016,Secondary,Immigration Offences,58
+2016,Secondary,Other Offences,79
+2016,Secondary,Property Crimes,488
+2016,Secondary,Traffic Offences,42
+2016,Vocational,Crimes Against Person,51
+2016,Vocational,Commercial Crimes,42
+2016,Vocational,Crimes Against Public Order,10
+2016,Vocational,Customs Offences,8
+2016,Vocational,Drug Offences,490
+2016,Vocational,Immigration Offences,0
+2016,Vocational,Other Offences,13
+2016,Vocational,Property Crimes,70
+2016,Vocational,Traffic Offences,11
+2016,Diploma/Tertiary,Crimes Against Person,62
+2016,Diploma/Tertiary,Commercial Crimes,70
+2016,Diploma/Tertiary,Crimes Against Public Order,12
+2016,Diploma/Tertiary,Customs Offences,5
+2016,Diploma/Tertiary,Drug Offences,118
+2016,Diploma/Tertiary,Immigration Offences,3
+2016,Diploma/Tertiary,Other Offences,16
+2016,Diploma/Tertiary,Property Crimes,72
+2016,Diploma/Tertiary,Traffic Offences,8

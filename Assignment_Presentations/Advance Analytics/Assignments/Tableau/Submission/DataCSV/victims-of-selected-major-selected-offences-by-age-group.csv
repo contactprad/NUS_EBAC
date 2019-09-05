@@ -1,0 +1,513 @@
+year,offence,age_group,gender,no_of_victims
+2008,Murder,Adults (above 21 yrs),Male,na
+2008,Murder,Adults (above 21 yrs),Female,na
+2009,Murder,Adults (above 21 yrs),Male,10
+2009,Murder,Adults (above 21 yrs),Female,3
+2010,Murder,Adults (above 21 yrs),Male,13
+2010,Murder,Adults (above 21 yrs),Female,2
+2011,Murder,Adults (above 21 yrs),Male,10
+2011,Murder,Adults (above 21 yrs),Female,6
+2012,Murder,Adults (above 21 yrs),Male,5
+2012,Murder,Adults (above 21 yrs),Female,6
+2013,Murder,Adults (above 21 yrs),Male,9
+2013,Murder,Adults (above 21 yrs),Female,5
+2014,Murder,Adults (above 21 yrs),Male,5
+2014,Murder,Adults (above 21 yrs),Female,7
+2015,Murder,Adults (above 21 yrs),Male,10
+2015,Murder,Adults (above 21 yrs),Female,3
+2008,Murder,Victims (<=21 yrs),Male,na
+2008,Murder,Victims (<=21 yrs),Female,na
+2009,Murder,Victims (<=21 yrs),Male,3
+2009,Murder,Victims (<=21 yrs),Female,4
+2010,Murder,Victims (<=21 yrs),Male,3
+2010,Murder,Victims (<=21 yrs),Female,1
+2011,Murder,Victims (<=21 yrs),Male,0
+2011,Murder,Victims (<=21 yrs),Female,0
+2012,Murder,Victims (<=21 yrs),Male,0
+2012,Murder,Victims (<=21 yrs),Female,0
+2013,Murder,Victims (<=21 yrs),Male,2
+2013,Murder,Victims (<=21 yrs),Female,1
+2014,Murder,Victims (<=21 yrs),Male,2
+2014,Murder,Victims (<=21 yrs),Female,0
+2015,Murder,Victims (<=21 yrs),Male,1
+2015,Murder,Victims (<=21 yrs),Female,0
+2008,Murder,Youths (7 to 19 years old),Male,2
+2008,Murder,Youths (7 to 19 years old),Female,2
+2009,Murder,Youths (7 to 19 years old),Male,1
+2009,Murder,Youths (7 to 19 years old),Female,1
+2010,Murder,Youths (7 to 19 years old),Male,2
+2010,Murder,Youths (7 to 19 years old),Female,1
+2011,Murder,Youths (7 to 19 years old),Male,0
+2011,Murder,Youths (7 to 19 years old),Female,0
+2012,Murder,Youths (7 to 19 years old),Male,0
+2012,Murder,Youths (7 to 19 years old),Female,0
+2013,Murder,Youths (7 to 19 years old),Male,1
+2013,Murder,Youths (7 to 19 years old),Female,1
+2014,Murder,Youths (7 to 19 years old),Male,1
+2014,Murder,Youths (7 to 19 years old),Female,0
+2015,Murder,Youths (7 to 19 years old),Male,0
+2015,Murder,Youths (7 to 19 years old),Female,0
+2008,Murder,Unknown Age,Male,0
+2008,Murder,Unknown Age,Female,0
+2009,Murder,Unknown Age,Male,0
+2009,Murder,Unknown Age,Female,0
+2010,Murder,Unknown Age,Male,0
+2010,Murder,Unknown Age,Female,0
+2011,Murder,Unknown Age,Male,0
+2011,Murder,Unknown Age,Female,0
+2012,Murder,Unknown Age,Male,0
+2012,Murder,Unknown Age,Female,0
+2013,Murder,Unknown Age,Male,0
+2013,Murder,Unknown Age,Female,0
+2014,Murder,Unknown Age,Male,0
+2014,Murder,Unknown Age,Female,0
+2015,Murder,Unknown Age,Male,0
+2015,Murder,Unknown Age,Female,0
+2008,Rape,Adults (above 21 yrs),Male,na
+2008,Rape,Adults (above 21 yrs),Female,na
+2009,Rape,Adults (above 21 yrs),Male,0
+2009,Rape,Adults (above 21 yrs),Female,67
+2010,Rape,Adults (above 21 yrs),Male,0
+2010,Rape,Adults (above 21 yrs),Female,52
+2011,Rape,Adults (above 21 yrs),Male,0
+2011,Rape,Adults (above 21 yrs),Female,45
+2012,Rape,Adults (above 21 yrs),Male,0
+2012,Rape,Adults (above 21 yrs),Female,41
+2013,Rape,Adults (above 21 yrs),Male,0
+2013,Rape,Adults (above 21 yrs),Female,40
+2014,Rape,Adults (above 21 yrs),Male,0
+2014,Rape,Adults (above 21 yrs),Female,51
+2015,Rape,Adults (above 21 yrs),Male,0
+2015,Rape,Adults (above 21 yrs),Female,60
+2008,Rape,Victims (<=21 yrs),Male,na
+2008,Rape,Victims (<=21 yrs),Female,na
+2009,Rape,Victims (<=21 yrs),Male,0
+2009,Rape,Victims (<=21 yrs),Female,136
+2010,Rape,Victims (<=21 yrs),Male,0
+2010,Rape,Victims (<=21 yrs),Female,113
+2011,Rape,Victims (<=21 yrs),Male,0
+2011,Rape,Victims (<=21 yrs),Female,105
+2012,Rape,Victims (<=21 yrs),Male,0
+2012,Rape,Victims (<=21 yrs),Female,97
+2013,Rape,Victims (<=21 yrs),Male,0
+2013,Rape,Victims (<=21 yrs),Female,83
+2014,Rape,Victims (<=21 yrs),Male,0
+2014,Rape,Victims (<=21 yrs),Female,115
+2015,Rape,Victims (<=21 yrs),Male,0
+2015,Rape,Victims (<=21 yrs),Female,107
+2008,Rape,Youths (7 to 19 years old),Male,0
+2008,Rape,Youths (7 to 19 years old),Female,97
+2009,Rape,Youths (7 to 19 years old),Male,0
+2009,Rape,Youths (7 to 19 years old),Female,122
+2010,Rape,Youths (7 to 19 years old),Male,0
+2010,Rape,Youths (7 to 19 years old),Female,101
+2011,Rape,Youths (7 to 19 years old),Male,0
+2011,Rape,Youths (7 to 19 years old),Female,96
+2012,Rape,Youths (7 to 19 years old),Male,0
+2012,Rape,Youths (7 to 19 years old),Female,82
+2013,Rape,Youths (7 to 19 years old),Male,0
+2013,Rape,Youths (7 to 19 years old),Female,79
+2014,Rape,Youths (7 to 19 years old),Male,0
+2014,Rape,Youths (7 to 19 years old),Female,104
+2015,Rape,Youths (7 to 19 years old),Male,0
+2015,Rape,Youths (7 to 19 years old),Female,93
+2008,Rape,Unknown Age,Male,0
+2008,Rape,Unknown Age,Female,0
+2009,Rape,Unknown Age,Male,0
+2009,Rape,Unknown Age,Female,0
+2010,Rape,Unknown Age,Male,0
+2010,Rape,Unknown Age,Female,0
+2011,Rape,Unknown Age,Male,0
+2011,Rape,Unknown Age,Female,0
+2012,Rape,Unknown Age,Male,0
+2012,Rape,Unknown Age,Female,0
+2013,Rape,Unknown Age,Male,0
+2013,Rape,Unknown Age,Female,0
+2014,Rape,Unknown Age,Male,0
+2014,Rape,Unknown Age,Female,0
+2015,Rape,Unknown Age,Male,0
+2015,Rape,Unknown Age,Female,0
+2008,Outrage of Modesty,Adults (above 21 yrs),Male,na
+2008,Outrage of Modesty,Adults (above 21 yrs),Female,na
+2009,Outrage of Modesty,Adults (above 21 yrs),Male,20
+2009,Outrage of Modesty,Adults (above 21 yrs),Female,666
+2010,Outrage of Modesty,Adults (above 21 yrs),Male,16
+2010,Outrage of Modesty,Adults (above 21 yrs),Female,753
+2011,Outrage of Modesty,Adults (above 21 yrs),Male,12
+2011,Outrage of Modesty,Adults (above 21 yrs),Female,810
+2012,Outrage of Modesty,Adults (above 21 yrs),Male,19
+2012,Outrage of Modesty,Adults (above 21 yrs),Female,828
+2013,Outrage of Modesty,Adults (above 21 yrs),Male,22
+2013,Outrage of Modesty,Adults (above 21 yrs),Female,767
+2014,Outrage of Modesty,Adults (above 21 yrs),Male,18
+2014,Outrage of Modesty,Adults (above 21 yrs),Female,793
+2015,Outrage of Modesty,Adults (above 21 yrs),Male,31
+2015,Outrage of Modesty,Adults (above 21 yrs),Female,756
+2008,Outrage of Modesty,Victims (<=21 yrs),Male,na
+2008,Outrage of Modesty,Victims (<=21 yrs),Female,na
+2009,Outrage of Modesty,Victims (<=21 yrs),Male,53
+2009,Outrage of Modesty,Victims (<=21 yrs),Female,585
+2010,Outrage of Modesty,Victims (<=21 yrs),Male,57
+2010,Outrage of Modesty,Victims (<=21 yrs),Female,681
+2011,Outrage of Modesty,Victims (<=21 yrs),Male,70
+2011,Outrage of Modesty,Victims (<=21 yrs),Female,586
+2012,Outrage of Modesty,Victims (<=21 yrs),Male,69
+2012,Outrage of Modesty,Victims (<=21 yrs),Female,585
+2013,Outrage of Modesty,Victims (<=21 yrs),Male,63
+2013,Outrage of Modesty,Victims (<=21 yrs),Female,579
+2014,Outrage of Modesty,Victims (<=21 yrs),Male,67
+2014,Outrage of Modesty,Victims (<=21 yrs),Female,568
+2015,Outrage of Modesty,Victims (<=21 yrs),Male,59
+2015,Outrage of Modesty,Victims (<=21 yrs),Female,519
+2008,Outrage of Modesty,Youths (7 to 19 years old),Male,54
+2008,Outrage of Modesty,Youths (7 to 19 years old),Female,483
+2009,Outrage of Modesty,Youths (7 to 19 years old),Male,47
+2009,Outrage of Modesty,Youths (7 to 19 years old),Female,448
+2010,Outrage of Modesty,Youths (7 to 19 years old),Male,49
+2010,Outrage of Modesty,Youths (7 to 19 years old),Female,503
+2011,Outrage of Modesty,Youths (7 to 19 years old),Male,60
+2011,Outrage of Modesty,Youths (7 to 19 years old),Female,474
+2012,Outrage of Modesty,Youths (7 to 19 years old),Male,62
+2012,Outrage of Modesty,Youths (7 to 19 years old),Female,427
+2013,Outrage of Modesty,Youths (7 to 19 years old),Male,56
+2013,Outrage of Modesty,Youths (7 to 19 years old),Female,446
+2014,Outrage of Modesty,Youths (7 to 19 years old),Male,65
+2014,Outrage of Modesty,Youths (7 to 19 years old),Female,439
+2015,Outrage of Modesty,Youths (7 to 19 years old),Male,49
+2015,Outrage of Modesty,Youths (7 to 19 years old),Female,416
+2008,Outrage of Modesty,Unknown Age,Male,0
+2008,Outrage of Modesty,Unknown Age,Female,0
+2009,Outrage of Modesty,Unknown Age,Male,0
+2009,Outrage of Modesty,Unknown Age,Female,2
+2010,Outrage of Modesty,Unknown Age,Male,1
+2010,Outrage of Modesty,Unknown Age,Female,3
+2011,Outrage of Modesty,Unknown Age,Male,0
+2011,Outrage of Modesty,Unknown Age,Female,4
+2012,Outrage of Modesty,Unknown Age,Male,1
+2012,Outrage of Modesty,Unknown Age,Female,4
+2013,Outrage of Modesty,Unknown Age,Male,1
+2013,Outrage of Modesty,Unknown Age,Female,3
+2014,Outrage of Modesty,Unknown Age,Male,0
+2014,Outrage of Modesty,Unknown Age,Female,4
+2015,Outrage of Modesty,Unknown Age,Male,0
+2015,Outrage of Modesty,Unknown Age,Female,4
+2008,Robbery,Adults (above 21 yrs),Male,na
+2008,Robbery,Adults (above 21 yrs),Female,na
+2009,Robbery,Adults (above 21 yrs),Male,429
+2009,Robbery,Adults (above 21 yrs),Female,181
+2010,Robbery,Adults (above 21 yrs),Male,322
+2010,Robbery,Adults (above 21 yrs),Female,152
+2011,Robbery,Adults (above 21 yrs),Male,235
+2011,Robbery,Adults (above 21 yrs),Female,107
+2012,Robbery,Adults (above 21 yrs),Male,179
+2012,Robbery,Adults (above 21 yrs),Female,86
+2013,Robbery,Adults (above 21 yrs),Male,157
+2013,Robbery,Adults (above 21 yrs),Female,67
+2014,Robbery,Adults (above 21 yrs),Male,155
+2014,Robbery,Adults (above 21 yrs),Female,46
+2015,Robbery,Adults (above 21 yrs),Male,88
+2015,Robbery,Adults (above 21 yrs),Female,32
+2008,Robbery,Victims (<=21 yrs),Male,na
+2008,Robbery,Victims (<=21 yrs),Female,na
+2009,Robbery,Victims (<=21 yrs),Male,151
+2009,Robbery,Victims (<=21 yrs),Female,46
+2010,Robbery,Victims (<=21 yrs),Male,72
+2010,Robbery,Victims (<=21 yrs),Female,29
+2011,Robbery,Victims (<=21 yrs),Male,80
+2011,Robbery,Victims (<=21 yrs),Female,27
+2012,Robbery,Victims (<=21 yrs),Male,43
+2012,Robbery,Victims (<=21 yrs),Female,25
+2013,Robbery,Victims (<=21 yrs),Male,37
+2013,Robbery,Victims (<=21 yrs),Female,13
+2014,Robbery,Victims (<=21 yrs),Male,38
+2014,Robbery,Victims (<=21 yrs),Female,13
+2015,Robbery,Victims (<=21 yrs),Male,8
+2015,Robbery,Victims (<=21 yrs),Female,4
+2008,Robbery,Youths (7 to 19 years old),Male,139
+2008,Robbery,Youths (7 to 19 years old),Female,41
+2009,Robbery,Youths (7 to 19 years old),Male,121
+2009,Robbery,Youths (7 to 19 years old),Female,28
+2010,Robbery,Youths (7 to 19 years old),Male,48
+2010,Robbery,Youths (7 to 19 years old),Female,26
+2011,Robbery,Youths (7 to 19 years old),Male,70
+2011,Robbery,Youths (7 to 19 years old),Female,18
+2012,Robbery,Youths (7 to 19 years old),Male,28
+2012,Robbery,Youths (7 to 19 years old),Female,18
+2013,Robbery,Youths (7 to 19 years old),Male,27
+2013,Robbery,Youths (7 to 19 years old),Female,9
+2014,Robbery,Youths (7 to 19 years old),Male,33
+2014,Robbery,Youths (7 to 19 years old),Female,9
+2015,Robbery,Youths (7 to 19 years old),Male,4
+2015,Robbery,Youths (7 to 19 years old),Female,3
+2008,Robbery,Unknown Age,Male,8
+2008,Robbery,Unknown Age,Female,1
+2009,Robbery,Unknown Age,Male,5
+2009,Robbery,Unknown Age,Female,1
+2010,Robbery,Unknown Age,Male,0
+2010,Robbery,Unknown Age,Female,2
+2011,Robbery,Unknown Age,Male,1
+2011,Robbery,Unknown Age,Female,0
+2012,Robbery,Unknown Age,Male,0
+2012,Robbery,Unknown Age,Female,0
+2013,Robbery,Unknown Age,Male,1
+2013,Robbery,Unknown Age,Female,0
+2014,Robbery,Unknown Age,Male,0
+2014,Robbery,Unknown Age,Female,1
+2015,Robbery,Unknown Age,Male,0
+2015,Robbery,Unknown Age,Female,0
+2008,Snatch Theft,Adults (above 21 yrs),Male,na
+2008,Snatch Theft,Adults (above 21 yrs),Female,na
+2009,Snatch Theft,Adults (above 21 yrs),Male,84
+2009,Snatch Theft,Adults (above 21 yrs),Female,380
+2010,Snatch Theft,Adults (above 21 yrs),Male,66
+2010,Snatch Theft,Adults (above 21 yrs),Female,271
+2011,Snatch Theft,Adults (above 21 yrs),Male,49
+2011,Snatch Theft,Adults (above 21 yrs),Female,231
+2012,Snatch Theft,Adults (above 21 yrs),Male,46
+2012,Snatch Theft,Adults (above 21 yrs),Female,190
+2013,Snatch Theft,Adults (above 21 yrs),Male,37
+2013,Snatch Theft,Adults (above 21 yrs),Female,162
+2014,Snatch Theft,Adults (above 21 yrs),Male,36
+2014,Snatch Theft,Adults (above 21 yrs),Female,114
+2015,Snatch Theft,Adults (above 21 yrs),Male,9
+2015,Snatch Theft,Adults (above 21 yrs),Female,67
+2008,Snatch Theft,Victims (<=21 yrs),Male,na
+2008,Snatch Theft,Victims (<=21 yrs),Female,na
+2009,Snatch Theft,Victims (<=21 yrs),Male,44
+2009,Snatch Theft,Victims (<=21 yrs),Female,51
+2010,Snatch Theft,Victims (<=21 yrs),Male,38
+2010,Snatch Theft,Victims (<=21 yrs),Female,54
+2011,Snatch Theft,Victims (<=21 yrs),Male,22
+2011,Snatch Theft,Victims (<=21 yrs),Female,48
+2012,Snatch Theft,Victims (<=21 yrs),Male,17
+2012,Snatch Theft,Victims (<=21 yrs),Female,37
+2013,Snatch Theft,Victims (<=21 yrs),Male,8
+2013,Snatch Theft,Victims (<=21 yrs),Female,30
+2014,Snatch Theft,Victims (<=21 yrs),Male,3
+2014,Snatch Theft,Victims (<=21 yrs),Female,12
+2015,Snatch Theft,Victims (<=21 yrs),Male,3
+2015,Snatch Theft,Victims (<=21 yrs),Female,5
+2008,Snatch Theft,Youths (7 to 19 years old),Male,53
+2008,Snatch Theft,Youths (7 to 19 years old),Female,65
+2009,Snatch Theft,Youths (7 to 19 years old),Male,39
+2009,Snatch Theft,Youths (7 to 19 years old),Female,36
+2010,Snatch Theft,Youths (7 to 19 years old),Male,34
+2010,Snatch Theft,Youths (7 to 19 years old),Female,36
+2011,Snatch Theft,Youths (7 to 19 years old),Male,18
+2011,Snatch Theft,Youths (7 to 19 years old),Female,32
+2012,Snatch Theft,Youths (7 to 19 years old),Male,14
+2012,Snatch Theft,Youths (7 to 19 years old),Female,25
+2013,Snatch Theft,Youths (7 to 19 years old),Male,7
+2013,Snatch Theft,Youths (7 to 19 years old),Female,21
+2014,Snatch Theft,Youths (7 to 19 years old),Male,3
+2014,Snatch Theft,Youths (7 to 19 years old),Female,9
+2015,Snatch Theft,Youths (7 to 19 years old),Male,3
+2015,Snatch Theft,Youths (7 to 19 years old),Female,5
+2008,Snatch Theft,Unknown Age,Male,0
+2008,Snatch Theft,Unknown Age,Female,3
+2009,Snatch Theft,Unknown Age,Male,0
+2009,Snatch Theft,Unknown Age,Female,2
+2010,Snatch Theft,Unknown Age,Male,0
+2010,Snatch Theft,Unknown Age,Female,1
+2011,Snatch Theft,Unknown Age,Male,0
+2011,Snatch Theft,Unknown Age,Female,0
+2012,Snatch Theft,Unknown Age,Male,0
+2012,Snatch Theft,Unknown Age,Female,0
+2013,Snatch Theft,Unknown Age,Male,0
+2013,Snatch Theft,Unknown Age,Female,4
+2014,Snatch Theft,Unknown Age,Male,0
+2014,Snatch Theft,Unknown Age,Female,0
+2015,Snatch Theft,Unknown Age,Male,0
+2015,Snatch Theft,Unknown Age,Female,0
+2008,Rioting,Adults (above 21 yrs),Male,na
+2008,Rioting,Adults (above 21 yrs),Female,na
+2009,Rioting,Adults (above 21 yrs),Male,201
+2009,Rioting,Adults (above 21 yrs),Female,4
+2010,Rioting,Adults (above 21 yrs),Male,180
+2010,Rioting,Adults (above 21 yrs),Female,7
+2011,Rioting,Adults (above 21 yrs),Male,125
+2011,Rioting,Adults (above 21 yrs),Female,7
+2012,Rioting,Adults (above 21 yrs),Male,170
+2012,Rioting,Adults (above 21 yrs),Female,8
+2013,Rioting,Adults (above 21 yrs),Male,190
+2013,Rioting,Adults (above 21 yrs),Female,11
+2014,Rioting,Adults (above 21 yrs),Male,163
+2014,Rioting,Adults (above 21 yrs),Female,11
+2015,Rioting,Adults (above 21 yrs),Male,108
+2015,Rioting,Adults (above 21 yrs),Female,4
+2008,Rioting,Victims (<=21 yrs),Male,na
+2008,Rioting,Victims (<=21 yrs),Female,na
+2009,Rioting,Victims (<=21 yrs),Male,239
+2009,Rioting,Victims (<=21 yrs),Female,8
+2010,Rioting,Victims (<=21 yrs),Male,239
+2010,Rioting,Victims (<=21 yrs),Female,19
+2011,Rioting,Victims (<=21 yrs),Male,114
+2011,Rioting,Victims (<=21 yrs),Female,14
+2012,Rioting,Victims (<=21 yrs),Male,132
+2012,Rioting,Victims (<=21 yrs),Female,9
+2013,Rioting,Victims (<=21 yrs),Male,83
+2013,Rioting,Victims (<=21 yrs),Female,10
+2014,Rioting,Victims (<=21 yrs),Male,73
+2014,Rioting,Victims (<=21 yrs),Female,5
+2015,Rioting,Victims (<=21 yrs),Male,57
+2015,Rioting,Victims (<=21 yrs),Female,11
+2008,Rioting,Youths (7 to 19 years old),Male,262
+2008,Rioting,Youths (7 to 19 years old),Female,17
+2009,Rioting,Youths (7 to 19 years old),Male,193
+2009,Rioting,Youths (7 to 19 years old),Female,8
+2010,Rioting,Youths (7 to 19 years old),Male,206
+2010,Rioting,Youths (7 to 19 years old),Female,14
+2011,Rioting,Youths (7 to 19 years old),Male,96
+2011,Rioting,Youths (7 to 19 years old),Female,12
+2012,Rioting,Youths (7 to 19 years old),Male,102
+2012,Rioting,Youths (7 to 19 years old),Female,5
+2013,Rioting,Youths (7 to 19 years old),Male,56
+2013,Rioting,Youths (7 to 19 years old),Female,5
+2014,Rioting,Youths (7 to 19 years old),Male,60
+2014,Rioting,Youths (7 to 19 years old),Female,2
+2015,Rioting,Youths (7 to 19 years old),Male,44
+2015,Rioting,Youths (7 to 19 years old),Female,6
+2008,Rioting,Unknown Age,Male,6
+2008,Rioting,Unknown Age,Female,0
+2009,Rioting,Unknown Age,Male,0
+2009,Rioting,Unknown Age,Female,0
+2010,Rioting,Unknown Age,Male,2
+2010,Rioting,Unknown Age,Female,0
+2011,Rioting,Unknown Age,Male,1
+2011,Rioting,Unknown Age,Female,0
+2012,Rioting,Unknown Age,Male,2
+2012,Rioting,Unknown Age,Female,0
+2013,Rioting,Unknown Age,Male,1
+2013,Rioting,Unknown Age,Female,0
+2014,Rioting,Unknown Age,Male,0
+2014,Rioting,Unknown Age,Female,0
+2015,Rioting,Unknown Age,Male,0
+2015,Rioting,Unknown Age,Female,0
+2008,Serious Hurt,Adults (above 21 yrs),Male,na
+2008,Serious Hurt,Adults (above 21 yrs),Female,na
+2009,Serious Hurt,Adults (above 21 yrs),Male,276
+2009,Serious Hurt,Adults (above 21 yrs),Female,56
+2010,Serious Hurt,Adults (above 21 yrs),Male,266
+2010,Serious Hurt,Adults (above 21 yrs),Female,84
+2011,Serious Hurt,Adults (above 21 yrs),Male,301
+2011,Serious Hurt,Adults (above 21 yrs),Female,59
+2012,Serious Hurt,Adults (above 21 yrs),Male,339
+2012,Serious Hurt,Adults (above 21 yrs),Female,62
+2013,Serious Hurt,Adults (above 21 yrs),Male,342
+2013,Serious Hurt,Adults (above 21 yrs),Female,80
+2014,Serious Hurt,Adults (above 21 yrs),Male,358
+2014,Serious Hurt,Adults (above 21 yrs),Female,78
+2015,Serious Hurt,Adults (above 21 yrs),Male,353
+2015,Serious Hurt,Adults (above 21 yrs),Female,96
+2008,Serious Hurt,Victims (<=21 yrs),Male,na
+2008,Serious Hurt,Victims (<=21 yrs),Female,na
+2009,Serious Hurt,Victims (<=21 yrs),Male,85
+2009,Serious Hurt,Victims (<=21 yrs),Female,18
+2010,Serious Hurt,Victims (<=21 yrs),Male,90
+2010,Serious Hurt,Victims (<=21 yrs),Female,21
+2011,Serious Hurt,Victims (<=21 yrs),Male,65
+2011,Serious Hurt,Victims (<=21 yrs),Female,12
+2012,Serious Hurt,Victims (<=21 yrs),Male,71
+2012,Serious Hurt,Victims (<=21 yrs),Female,11
+2013,Serious Hurt,Victims (<=21 yrs),Male,74
+2013,Serious Hurt,Victims (<=21 yrs),Female,13
+2014,Serious Hurt,Victims (<=21 yrs),Male,66
+2014,Serious Hurt,Victims (<=21 yrs),Female,13
+2015,Serious Hurt,Victims (<=21 yrs),Male,56
+2015,Serious Hurt,Victims (<=21 yrs),Female,17
+2008,Serious Hurt,Youths (7 to 19 years old),Male,68
+2008,Serious Hurt,Youths (7 to 19 years old),Female,12
+2009,Serious Hurt,Youths (7 to 19 years old),Male,65
+2009,Serious Hurt,Youths (7 to 19 years old),Female,10
+2010,Serious Hurt,Youths (7 to 19 years old),Male,68
+2010,Serious Hurt,Youths (7 to 19 years old),Female,15
+2011,Serious Hurt,Youths (7 to 19 years old),Male,42
+2011,Serious Hurt,Youths (7 to 19 years old),Female,8
+2012,Serious Hurt,Youths (7 to 19 years old),Male,53
+2012,Serious Hurt,Youths (7 to 19 years old),Female,6
+2013,Serious Hurt,Youths (7 to 19 years old),Male,51
+2013,Serious Hurt,Youths (7 to 19 years old),Female,11
+2014,Serious Hurt,Youths (7 to 19 years old),Male,52
+2014,Serious Hurt,Youths (7 to 19 years old),Female,9
+2015,Serious Hurt,Youths (7 to 19 years old),Male,34
+2015,Serious Hurt,Youths (7 to 19 years old),Female,12
+2008,Serious Hurt,Unknown Age,Male,2
+2008,Serious Hurt,Unknown Age,Female,0
+2009,Serious Hurt,Unknown Age,Male,1
+2009,Serious Hurt,Unknown Age,Female,1
+2010,Serious Hurt,Unknown Age,Male,1
+2010,Serious Hurt,Unknown Age,Female,0
+2011,Serious Hurt,Unknown Age,Male,1
+2011,Serious Hurt,Unknown Age,Female,0
+2012,Serious Hurt,Unknown Age,Male,4
+2012,Serious Hurt,Unknown Age,Female,0
+2013,Serious Hurt,Unknown Age,Male,2
+2013,Serious Hurt,Unknown Age,Female,0
+2014,Serious Hurt,Unknown Age,Male,0
+2014,Serious Hurt,Unknown Age,Female,0
+2015,Serious Hurt,Unknown Age,Male,0
+2015,Serious Hurt,Unknown Age,Female,0
+2008,Cheating & Related,Adults (above 21 yrs),Male,na
+2008,Cheating & Related,Adults (above 21 yrs),Female,na
+2009,Cheating & Related,Adults (above 21 yrs),Male,1118
+2009,Cheating & Related,Adults (above 21 yrs),Female,702
+2010,Cheating & Related,Adults (above 21 yrs),Male,1136
+2010,Cheating & Related,Adults (above 21 yrs),Female,749
+2011,Cheating & Related,Adults (above 21 yrs),Male,1053
+2011,Cheating & Related,Adults (above 21 yrs),Female,805
+2012,Cheating & Related,Adults (above 21 yrs),Male,785
+2012,Cheating & Related,Adults (above 21 yrs),Female,637
+2013,Cheating & Related,Adults (above 21 yrs),Male,1100
+2013,Cheating & Related,Adults (above 21 yrs),Female,811
+2014,Cheating & Related,Adults (above 21 yrs),Male,1871
+2014,Cheating & Related,Adults (above 21 yrs),Female,1419
+2015,Cheating & Related,Adults (above 21 yrs),Male,3492
+2015,Cheating & Related,Adults (above 21 yrs),Female,2215
+2008,Cheating & Related,Victims (<=21 yrs),Male,na
+2008,Cheating & Related,Victims (<=21 yrs),Female,na
+2009,Cheating & Related,Victims (<=21 yrs),Male,142
+2009,Cheating & Related,Victims (<=21 yrs),Female,105
+2010,Cheating & Related,Victims (<=21 yrs),Male,119
+2010,Cheating & Related,Victims (<=21 yrs),Female,92
+2011,Cheating & Related,Victims (<=21 yrs),Male,159
+2011,Cheating & Related,Victims (<=21 yrs),Female,133
+2012,Cheating & Related,Victims (<=21 yrs),Male,117
+2012,Cheating & Related,Victims (<=21 yrs),Female,169
+2013,Cheating & Related,Victims (<=21 yrs),Male,176
+2013,Cheating & Related,Victims (<=21 yrs),Female,139
+2014,Cheating & Related,Victims (<=21 yrs),Male,308
+2014,Cheating & Related,Victims (<=21 yrs),Female,212
+2015,Cheating & Related,Victims (<=21 yrs),Male,634
+2015,Cheating & Related,Victims (<=21 yrs),Female,277
+2008,Cheating & Related,Youths (7 to 19 years old),Male,112
+2008,Cheating & Related,Youths (7 to 19 years old),Female,78
+2009,Cheating & Related,Youths (7 to 19 years old),Male,89
+2009,Cheating & Related,Youths (7 to 19 years old),Female,67
+2010,Cheating & Related,Youths (7 to 19 years old),Male,79
+2010,Cheating & Related,Youths (7 to 19 years old),Female,52
+2011,Cheating & Related,Youths (7 to 19 years old),Male,103
+2011,Cheating & Related,Youths (7 to 19 years old),Female,76
+2012,Cheating & Related,Youths (7 to 19 years old),Male,73
+2012,Cheating & Related,Youths (7 to 19 years old),Female,127
+2013,Cheating & Related,Youths (7 to 19 years old),Male,104
+2013,Cheating & Related,Youths (7 to 19 years old),Female,79
+2014,Cheating & Related,Youths (7 to 19 years old),Male,187
+2014,Cheating & Related,Youths (7 to 19 years old),Female,119
+2015,Cheating & Related,Youths (7 to 19 years old),Male,352
+2015,Cheating & Related,Youths (7 to 19 years old),Female,158
+2008,Cheating & Related,Unknown Age,Male,5
+2008,Cheating & Related,Unknown Age,Female,4
+2009,Cheating & Related,Unknown Age,Male,5
+2009,Cheating & Related,Unknown Age,Female,1
+2010,Cheating & Related,Unknown Age,Male,1
+2010,Cheating & Related,Unknown Age,Female,1
+2011,Cheating & Related,Unknown Age,Male,0
+2011,Cheating & Related,Unknown Age,Female,1
+2012,Cheating & Related,Unknown Age,Male,0
+2012,Cheating & Related,Unknown Age,Female,0
+2013,Cheating & Related,Unknown Age,Male,1
+2013,Cheating & Related,Unknown Age,Female,1
+2014,Cheating & Related,Unknown Age,Male,0
+2014,Cheating & Related,Unknown Age,Female,1
+2015,Cheating & Related,Unknown Age,Male,0
+2015,Cheating & Related,Unknown Age,Female,0

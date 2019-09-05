@@ -1,0 +1,161 @@
+# Metadata for Remand Population
+---
+Identifier: 'd65025e5-c7f3-47c4-abdd-ec200202dab1'
+Name: 'remand-population'
+Title: 'Remand Population'
+Description: 'Remand Population as at 31st December of each year'
+Topics:
+  - 'Society'
+Keywords:
+  - 'Inmate'
+  - 'Population'
+  - 'Prisoner'
+  - 'Remand'
+  - 'Unconvicted'
+Publisher:
+  Name: 'Ministry of Home Affairs - Singapore Prison Service'
+  Admin 1:
+    Name: 'Ivan Ho'
+    Department: 'Data Science Branch'
+    Email: 'Ivan_Ho@pris.gov.sg'
+  Admin 2:
+    Name: 'Wong Jin Wen'
+    Department: 'Data Science Branch'
+    Email: 'Wong_Jin_Wen@pris.gov.sg'
+Sources:
+  - 'Ministry of Home Affairs - Singapore Prison Service'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2007-01-01 to 2016-12-31'
+Last Updated: '2017-02-27T07:24:18.653806'
+Resources:
+  -
+    Identifier: '3dafe2f8-bb69-4ce8-ba11-409884f56abb'
+    Title: 'Remand Population'
+    Url: 'https://storage.data.gov.sg/remand-population/resources/remand-population-2017-02-27T06-34-16Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Remand Population as at 31st December of each year'
+    Last Updated: '2017-02-27T06:34:16.166130'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '37e16c90-38a7-4c6f-b8c1-7e4fd2108b59'
+    Title: 'Remand Population by Age Group'
+    Url: 'https://storage.data.gov.sg/remand-population/resources/remand-population-by-age-group-2017-02-27T06-38-05Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Remand Population as at 31st December of each year breakdown by
+      age group.'
+    Last Updated: '2017-02-27T06:38:05.744768'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_age_group'
+        Title: 'Population By Age Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '10de50f0-9e7b-42d3-a303-cd34c80aa656'
+    Title: 'Remand Population by Education Level'
+    Url: 'https://storage.data.gov.sg/remand-population/resources/remand-population-by-education-level-2017-02-27T06-39-22Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Remand Population as at 31st December of each year breakdown by
+      education level.'
+    Last Updated: '2017-02-27T06:39:22.916405'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_education_level'
+        Title: 'Population By Education Level'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: 'f4a244d7-2496-4b54-b5f3-5eb107b1a884'
+    Title: 'Remand Population by Gender'
+    Url: 'https://storage.data.gov.sg/remand-population/resources/remand-population-by-gender-2017-02-27T06-40-44Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Remand Population as at 31st December of each year breakdown by
+      gender.'
+    Last Updated: '2017-02-27T06:40:44.362043'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_gender'
+        Title: 'Population By Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+  -
+    Identifier: '0b9769ec-9753-45b7-ae10-aa907962c00b'
+    Title: 'Remand Population by Offence Group'
+    Url: 'https://storage.data.gov.sg/remand-population/resources/remand-population-by-offence-group-2017-02-27T06-42-15Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2016-12-31'
+    Description: 'Remand Population as at 31st December of each year breakdown by
+      offence group.'
+    Last Updated: '2017-02-27T06:42:15.513085'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'population_by_main_offence_group'
+        Title: 'Population By Main Offence Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_population'
+        Title: 'Number Of Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Inmates'
+        Description: '"na" : Data not available or not applicable'

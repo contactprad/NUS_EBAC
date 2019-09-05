@@ -1,0 +1,243 @@
+﻿New Table( "Sheet1 2 2 2",
+	Add Rows( 77 ),
+	New Script(
+		"Source",
+		Open(
+			"D:\NUS\DataAnalytics\Assignments\Catherine\Temp.xlsx",
+			Worksheets( "Sheet1" ),
+			Use for all sheets( 1 ),
+			Concatenate Worksheets( 0 ),
+			Create Concatenation Column( 0 ),
+			Worksheet Settings(
+				1,
+				Has Column Headers( 1 ),
+				Number of Rows in Headers( 1 ),
+				Headers Start on Row( 1 ),
+				Data Starts on Row( 2 ),
+				Data Starts on Column( 1 ),
+				Data Ends on Row( 0 ),
+				Data Ends on Column( 0 ),
+				Replicated Spanned Rows( 1 ),
+				Replicated Spanned Headers( 0 ),
+				Suppress Hidden Rows( 1 ),
+				Suppress Hidden Columns( 1 ),
+				Suppress Empty Columns( 1 ),
+				Treat as Hierarchy( 0 ),
+				Multiple Series Stack( 0 ),
+				Import Cell Colors( 0 ),
+				Limit Column Detect( 0 ),
+				Column Separator String( "-" )
+			)
+		)
+	),
+	New Column( "CPI",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[9.876543, 9.815951, 9.69697, 8.333333, 9.467456, 9.302325, 8.823529,
+			8.823529, 9.411765, 8.72093, 8.620689, 8.426967, 8.988764, 10.05587,
+			9.392265, 9.340659, 6.486486, 5.319149, 7.567567, 8.648648, 10.21505,
+			10.16043, 10.05291, 9.84456, 10.30928, 9.137055, 9.59596, 9.547739,
+			11.16751, 11.61616, 12.0603, 11.44279, 10.2439, 10.67961, 11.05769,
+			10.84906, 10.74766, 10.69767, 11.05991, 11.46789, 9.132421, 7.239819,
+			6.726458, 6.696429, 7.079646, 7.017544, 6.493506, 7.234043, 6.751055,
+			6.302521, 4.979253, 4.115226, 5.85774, 7.172996, 6.302521, 6.276151,
+			5.785124, 5.737705, 6.097561, 4.365079, 4.347826, 5.13834, 6.324111,
+			6.719368, 6.324111, 5.905512, 5.533597, 5.511811, 5.859375, 6.589147,
+			6.130268, 6.463878, 5.30303, 4.135338, 3.345725, 2.592592, 2.230483]
+		)
+	),
+	New Column( "exchange",
+		Numeric,
+		"Continuous",
+		Format( "Best", 15 ),
+		Set Values(
+			[47.065, 44.57, 44.325, 45.8, 44.713, 45.825, 45.265, 44.535, 44.255,
+			45.06, 44.7, 44.21, 45.8, 49.02, 48.695, 52.13, 53.015, 49.515, 49.11,
+			50.875, 52.665, 56.04, 55.51, 55.56, 55.525, 52.855, 53.805, 54.265,
+			54.995, 53.275, 54.37, 54.285, 53.685, 56.58, 59.533, 60.855, 65.705,
+			62.59, 61.624, 62.399, 61.81, 62.685, 61.795, 60.015, 60.345, 59.195,
+			60.06, 60.555, 60.52, 61.94, 61.405, 62.21, 63.035, 62.02, 61.659,
+			62.291, 63.529, 63.743, 63.604, 63.988, 66.412, 65.517, 65.423, 66.462,
+			66.208, 67.878, 68.208, 66.255, 66.425, 67.209, 67.504, 66.655, 66.973,
+			66.556, 66.686, 68.598, 67.955]
+		)
+	),
+	Set Row States(
+		[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+		]
+	)
+) << Run Formulas;
+Time Series(
+	Y( :CPI ),
+	Input List( :exchange ),
+	Transfer Function(
+		Order( 0, 0, 0 ),
+		Seasonal( 4, 2, 4, 12 ),
+		:exchange( Order( 3, 0, 2 ), Seasonal( 0, 0, 4, 12 ), Lag( 0 ) )
+	),
+	Transfer Function(
+		Order( 0, 1, 0 ),
+		Seasonal( 4, 1, 4, 12 ),
+		:exchange( Order( 3, 0, 2 ), Seasonal( 0, 0, 0, 12 ), Lag( 1 ) ),
+		Number of Forecast Periods( 3 )
+	),
+	Transfer Function(
+		Order( 1, 1, 1 ),
+		Seasonal( 4, 1, 4, 12 ),
+		:exchange( Order( 3, 0, 2 ), Seasonal( 0, 0, 0, 12 ), Lag( 1 ) ),
+		Number of Forecast Periods( 2 )
+	),
+	Input Series(
+		:exchange,
+		Difference( 1 ),
+		Seasonal ARIMA( 0, 0, 0, 1, 1, 1, 12 ),
+		Seasonal ARIMA( 0, 0, 0, 1, 2, 1, 12 ),
+		Seasonal ARIMA( 0, 0, 0, 4, 1, 4, 12 ),
+		Seasonal ARIMA( 0, 0, 0, 4, 2, 4, 12 ),
+		Seasonal ARIMA( 1, 1, 1, 4, 2, 4, 12 ),
+		Prewhitening( Order( 0, 0, 0 ), Seasonal( 4, 2, 4, 12 ) ),
+		Prewhitening( Order( 0, 1, 0 ), Seasonal( 4, 1, 4, 12 ) ),
+		Seasonal ARIMA( 0, 1, 0, 4, 1, 4, 12 ),
+		Prewhitening( Order( 1, 1, 1 ), Seasonal( 4, 1, 4, 12 ) )
+	),
+	SendToReport(
+		Dispatch(
+			{"Time Series CPI"},
+			"Transfer Function Model (1)",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Time Series CPI", "Transfer Function Model (1)"},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Time Series CPI", "Transfer Function Model (1)",
+			"Interactive Forecasting"},
+			"Time Series",
+			FrameBox,
+			{DispatchSeg( CustomStreamSeg( 3 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 4 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 5 ), {Line Color( "Blue" )} )}
+		),
+		Dispatch(
+			{"Time Series CPI"},
+			"Transfer Function Model (2)",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Time Series CPI", "Transfer Function Model (2)"},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Time Series CPI", "Transfer Function Model (2)",
+			"Interactive Forecasting"},
+			"Time Series",
+			FrameBox,
+			{DispatchSeg( CustomStreamSeg( 3 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 4 ), {Line Color( "Blue" )} ),
+			DispatchSeg( CustomStreamSeg( 5 ), {Line Color( "Blue" )} )}
+		),
+		Dispatch(
+			{"Time Series CPI"},
+			"Transfer Function Model (3)",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange"},
+			"Time Series Basic Diagnostics",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange"},
+			"Model Comparison",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange"},
+			"Model: Seasonal ARIMA(0",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 0, 0)(1, 1, 1)12  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 0, 0)(1, 2, 1)12  "},
+			"Parameter Estimates",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 0, 0)(1, 2, 1)12  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 0, 0)(4, 1, 4)12  "},
+			"Model Summary",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 0, 0)(4, 1, 4)12  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 0, 0)(4, 2, 4)12  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange"},
+			"Model: Seasonal ARIMA(1",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(1, 1, 1)(4, 2, 4)12  "},
+			"Residuals",
+			OutlineBox,
+			{Close( 0 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange"},
+			"Prewhitening Plot (0",
+			OutlineBox,
+			{Close( 1 )}
+		),
+		Dispatch(
+			{"Input Time Series Panel", "Input Series: exchange",
+			"Model: Seasonal ARIMA(0, 1, 0)(4, 1, 4)12  "},
+			"Forecast",
+			OutlineBox,
+			{Close( 1 )}
+		)
+	)
+);
