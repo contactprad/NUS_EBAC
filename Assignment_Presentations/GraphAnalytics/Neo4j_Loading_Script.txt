@@ -1,0 +1,145 @@
+CREATE CONSTRAINT ON (ap:AirPort) ASSERT ap.id IS UNIQUE;
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///airports.csv' AS line
+WITH line
+FOREACH (x IN CASE WHEN line.`airport_id` IS NULL THEN [] ELSE [1] END |
+  MERGE (ap:AirPort {id: line.`airport_id`})
+  SET ap.name = line.`airport_name`,
+    ap.iata = line.`airport_iata`,
+    ap.icao = line.`airport_icao`,
+	ap.latitude = line.`airport_latitude`,
+	ap.longitude = line.`airport_longitude`,
+	ap.altitude = line.`airport_altitude`,
+	ap.timezone = line.`airport_timezone`)
+
+CREATE CONSTRAINT ON (ctry:Country) ASSERT ctry.name IS UNIQUE;
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///airports.csv' AS line
+WITH line
+FOREACH (x IN CASE WHEN line.`country` IS NULL THEN [] ELSE [1] END |
+  MERGE (ctry:Country {name: line.`country`}))
+  
+CREATE CONSTRAINT ON (ct:City) ASSERT ct.name IS UNIQUE;
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///airports.csv' AS line
+WITH line
+FOREACH (x IN CASE WHEN line.`city` IS NULL THEN [] ELSE [1] END |
+  MERGE (ct:City {name: line.`city`}))
+  
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///airports.csv' AS line
+WITH line
+MATCH (ap:AirPort {id: line.`airport_id`})
+MATCH (ct:City {name: line.`city`})
+MERGE (ap)-[loc:IN_CITY]->(ct)
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///airports.csv' AS line
+WITH line
+MATCH (ctry:Country {name: line.`country`})
+MATCH (ct:City {name: line.`city`})
+MERGE (ct)-[loc:IN_COUNTRY]->(ctry)
+=================================================================================================================================
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///routes.csv' AS line
+WITH line
+FOREACH (x IN CASE WHEN line.`source_airport_id` IS NULL THEN [] ELSE [1] END |
+  MERGE (ap:AirPort {id: line.`source_airport_id`}))
+  
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///routes.csv' AS line
+WITH line
+FOREACH (x IN CASE WHEN line.`dest_airport_id` IS NULL THEN [] ELSE [1] END |
+  MERGE (ap:AirPort {id: line.`dest_airport_id`}))
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///routes.csv' AS line
+WITH line
+	MATCH (sap:AirPort {id: line.`source_airport_id`})
+	MATCH (dap:AirPort {id: line.`dest_airport_id`})
+	MERGE (sap)-[dt:DESTINATION { stop_cnt: TOINT(line.`stops`), codeshare: line.`codeshare`, airline: line.`airline_id`}]->(dap)
+============================================================================================================================================================
+Cypher Queries
+============================================================================================================================================================
+MATCH (ct:City {name: 'Singapore'})
+RETURN ct
+
+MATCH (n:AirPort)
+WHERE toFloat(n.latitude) < -100
+RETURN COUNT(n)
+
+MATCH (sct:City {name: 'Singapore'}),(dct:City {name: 'Jakarta'}),
+p=(sct)<-[:IN_CITY]-(sap)-[dt:DESTINATION]->(dap)-[:IN_CITY]->(dct)
+RETURN p
+
+# Which cities have more than one airport?
+###########################################
+MATCH (ap)-[:IN_CITY]->(ct)
+WITH ct, COUNT(*) as Count
+WHERE Count > 1
+RETURN ct.name AS City, Count
+ORDER BY Count DESC LIMIT 10
+
+# Which cities have more than one airport? What are they?
+##########################################################
+MATCH (ap)-[:IN_CITY]->(ct)
+WITH ct, COLLECT(ap) as airports
+WHERE LENGTH(airports) > 1
+RETURN ct.name AS City, EXTRACT(ap IN airports | ap.name) AS Airports
+
+# Which all airlines travel from Singapore to Mumbai with text output
+######################################################################
+MATCH (sap)-[:IN_CITY]->(sct),
+      (sap)-[dt:DESTINATION]->(dap)-[:IN_CITY]->(dct)
+WHERE sct.name = 'Singapore' and dct.name = 'Mumbai'
+RETURN sap.name, dt.airline, dap.name
+
+# Which all airlines travel from Singapore to London with graphical output
+###########################################################################
+MATCH (sct)<-[:IN_CITY]-(sap)-[dt:DESTINATION]->(dap)-[:IN_CITY]->(dct)
+WHERE sct.name = 'Singapore' and dct.name = 'London' and dt.codeshare = 'N'
+RETURN (sap)-[dt:DESTINATION]->(dap)
+
+# Shortest path between Singapore and Chicago
+##############################################
+MATCH (ct1:City {name: 'Singapore'}),(ct2:City {name: 'Chicago'}),
+  p = allShortestPaths((ct1)-[*..10]-(ct2))
+RETURN p LIMIT 10
+
+# Which all airport can be used as transit in their ascending order of traffic in terms of destinations served
+###############################################################################################################
+MATCH (xy)-[:DESTINATION]->(ap)
+WITH xy, count(*) AS Count
+MATCH (sct:City {name: 'Singapore'}),(dct:City {name: 'Mumbai'}),
+p=(sct)<-[:IN_CITY]-(sap)-[dt:DESTINATION]->(xy)-[dt1:DESTINATION]->(dap)-[:IN_CITY]->(dct)
+WHERE (toFloat(sap.latitude) < toFloat(xy.latitude) < toFloat(dap.latitude)) and (toFloat(sap.longitude) > toFloat(xy.longitude) > toFloat(dap.longitude))
+RETURN xy ORDER BY Count
+
+# Which all airport can be used as transit between Singapore and Mumbai with transit airports handling less than 300 destinations
+##################################################################################################################################
+MATCH (xy)-[:DESTINATION]->(ap)
+WITH xy, count(*) AS Count
+WHERE Count < 50
+MATCH (sct:City {name: 'Singapore'}),(dct:City {name: 'Mumbai'}),
+p=(sct)<-[:IN_CITY]-(sap)-[dt:DESTINATION]->(xy)-[dt1:DESTINATION]->(dap)-[:IN_CITY]->(dct)
+WHERE (toFloat(sap.latitude) < toFloat(xy.latitude) < toFloat(dap.latitude)) and (toFloat(sap.longitude) > toFloat(xy.longitude) > toFloat(dap.longitude))
+RETURN p
+
+# Which all airport can be used as transit in their ascending order of traffic in terms of airline served
+###########################################################################################################
+MATCH (xy)-[dt:DESTINATION]->()
+WITH xy, count(distinct dt.airline) AS Count
+MATCH (sct:City {name: 'Singapore'}),(dct:City {name: 'Mumbai'}),
+p=(sct)<-[:IN_CITY]-(sap)-[dt1:DESTINATION]->(xy)-[dt2:DESTINATION]->(dap)-[:IN_CITY]->(dct)
+WHERE (toFloat(sap.latitude) < toFloat(xy.latitude) < toFloat(dap.latitude)) and (toFloat(sap.longitude) > toFloat(xy.longitude) > toFloat(dap.longitude))
+RETURN xy ORDER BY Count
+
+
